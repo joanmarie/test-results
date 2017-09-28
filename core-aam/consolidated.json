@@ -650,18 +650,17 @@
             "FF01": "FAIL",
             "FF02": "FAIL",
             "GC02": "FAIL",
-            "WK01": "FAIL",
+            "WK01": "PASS",
             "WK02": "PASS"
           },
           "UAmessage": {
             "FF01": "assert_true: \"result atk_table_cell_get_position() contains column=2\" failed   \n**Actual value:** (1, row=0, column=0)  \n<https://bugzil.la/1357188>: [NEW] atk\\_table\\_cell\\_get\\_position() should report the values of aria-rowindex and aria-colindex  \n;  expected true got false",
             "FF02": "assert_true: \"property AXARIAColumnIndex is 3\" failed   \n**Actual value:** None  \n;  expected true got false",
-            "GC02": "assert_true: \"property AXARIAColumnIndex is 3\" failed   \n**Actual value:** None  \n;  expected true got false",
-            "WK01": "assert_true: \"result atk_table_cell_get_position() contains column=2\" failed   \n**Actual value:** (1, row=0, column=0)  \n<https://webkit.org/b/171176>: [NEW] [ATK] atk\\_table\\_cell\\_get\\_position() should return values of aria-rowindex and aria-colindex, if present  \n;  expected true got false"
+            "GC02": "assert_true: \"property AXARIAColumnIndex is 3\" failed   \n**Actual value:** None  \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 4,
-            "PASS": 1
+            "FAIL": 3,
+            "PASS": 2
           }
         }
       }
@@ -1015,14 +1014,11 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "WK01": "FAIL"
+            "WK01": "PASS"
           },
-          "UAmessage": {
-            "WK01": "assert_true: \"event type is object:state-changed:enabled\" failed   \n;  expected true got false"
-          },
+          "UAmessage": {},
           "totals": {
-            "PASS": 1,
-            "FAIL": 1
+            "PASS": 2
           }
         }
       }
@@ -1393,18 +1389,17 @@
             "FF01": "PASS",
             "FF02": "FAIL",
             "GC02": "FAIL",
-            "WK01": "FAIL",
+            "WK01": "PASS",
             "WK02": "FAIL"
           },
           "UAmessage": {
             "FF02": "assert_true: \"event type is AXRowExpanded\" failed   \n;  expected true got false",
             "GC02": "assert_true: \"event type is AXRowExpanded\" failed   \n;  expected true got false",
-            "WK01": "assert_true: \"event type is object:state-changed:expanded\" failed   \n;  expected true got false",
             "WK02": "assert_true: \"event type is AXRowExpanded\" failed   \n;  expected true got false"
           },
           "totals": {
-            "PASS": 1,
-            "FAIL": 4
+            "PASS": 2,
+            "FAIL": 3
           }
         },
         "aria-expanded value changes 1": {
@@ -1413,18 +1408,17 @@
             "FF01": "PASS",
             "FF02": "FAIL",
             "GC02": "FAIL",
-            "WK01": "FAIL",
+            "WK01": "PASS",
             "WK02": "FAIL"
           },
           "UAmessage": {
             "FF02": "assert_true: \"event type is AXRowCollapsed\" failed   \n;  expected true got false",
             "GC02": "assert_true: \"event type is AXRowCollapsed\" failed   \n;  expected true got false",
-            "WK01": "assert_true: \"event type is object:state-changed:expanded\" failed   \n;  expected true got false",
             "WK02": "assert_true: \"event type is AXRowCollapsed\" failed   \n;  expected true got false"
           },
           "totals": {
-            "PASS": 1,
-            "FAIL": 4
+            "PASS": 2,
+            "FAIL": 3
           }
         }
       }
@@ -2569,14 +2563,11 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "WK01": "FAIL"
+            "WK01": "PASS"
           },
-          "UAmessage": {
-            "WK01": "assert_true: \"property states doesNotContain STATE_MULTISELECTABLE\" failed   \n**Actual value:** ['STATE\\_ENABLED', 'STATE\\_HORIZONTAL', 'STATE\\_MULTISELECTABLE', 'STATE\\_SENSITIVE']  \n;  expected true got false"
-          },
+          "UAmessage": {},
           "totals": {
-            "PASS": 1,
-            "FAIL": 1
+            "PASS": 2
           }
         }
       }
@@ -2964,14 +2955,11 @@
           "stNum": 1,
           "byUA": {
             "FF01": "PASS",
-            "WK01": "FAIL"
+            "WK01": "PASS"
           },
-          "UAmessage": {
-            "WK01": "assert_true: \"event type is object:state-changed:pressed\" failed   \n;  expected true got false"
-          },
+          "UAmessage": {},
           "totals": {
-            "PASS": 1,
-            "FAIL": 1
+            "PASS": 2
           }
         }
       }
@@ -3174,28 +3162,28 @@
           "stNum": 0,
           "byUA": {
             "FF01": "FAIL",
-            "WK01": "FAIL"
+            "WK01": "PASS"
           },
           "UAmessage": {
-            "FF01": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false",
-            "WK01": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false"
+            "FF01": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 2
+            "FAIL": 1,
+            "PASS": 1
           }
         },
         "aria-readonly value changes 1": {
           "stNum": 1,
           "byUA": {
             "FF01": "FAIL",
-            "WK01": "FAIL"
+            "WK01": "PASS"
           },
           "UAmessage": {
-            "FF01": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false",
-            "WK01": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false"
+            "FF01": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 2
+            "FAIL": 1,
+            "PASS": 1
           }
         }
       }
@@ -3298,28 +3286,22 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "WK01": "FAIL"
+            "WK01": "PASS"
           },
-          "UAmessage": {
-            "WK01": "assert_true: \"event type is object:state-changed:required\" failed   \n;  expected true got false"
-          },
+          "UAmessage": {},
           "totals": {
-            "PASS": 1,
-            "FAIL": 1
+            "PASS": 2
           }
         },
         "aria-required value changes 1": {
           "stNum": 1,
           "byUA": {
             "FF01": "PASS",
-            "WK01": "FAIL"
+            "WK01": "PASS"
           },
-          "UAmessage": {
-            "WK01": "assert_true: \"event type is object:state-changed:required\" failed   \n;  expected true got false"
-          },
+          "UAmessage": {},
           "totals": {
-            "PASS": 1,
-            "FAIL": 1
+            "PASS": 2
           }
         }
       }
@@ -3443,18 +3425,17 @@
             "FF01": "FAIL",
             "FF02": "FAIL",
             "GC02": "FAIL",
-            "WK01": "FAIL",
+            "WK01": "PASS",
             "WK02": "PASS"
           },
           "UAmessage": {
             "FF01": "assert_true: \"result atk_table_cell_get_position() contains row=2\" failed   \n**Actual value:** (1, row=0, column=0)  \n<https://bugzil.la/1357188>: [NEW] atk\\_table\\_cell\\_get\\_position() should report the values of aria-rowindex and aria-colindex  \n;  expected true got false",
             "FF02": "assert_true: \"property AXARIARowIndex is 3\" failed   \n**Actual value:** None  \n;  expected true got false",
-            "GC02": "assert_true: \"property AXARIARowIndex is 3\" failed   \n**Actual value:** None  \n;  expected true got false",
-            "WK01": "assert_true: \"result atk_table_cell_get_position() contains row=2\" failed   \n**Actual value:** (1, row=0, column=0)  \n<https://webkit.org/b/171176>: [NEW] [ATK] atk\\_table\\_cell\\_get\\_position() should return values of aria-rowindex and aria-colindex, if present  \n;  expected true got false"
+            "GC02": "assert_true: \"property AXARIARowIndex is 3\" failed   \n**Actual value:** None  \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 4,
-            "PASS": 1
+            "FAIL": 3,
+            "PASS": 2
           }
         }
       }
@@ -4450,7 +4431,7 @@
         }
       }
     },
-    "/core-aam/exclude_element_hidden_with_css_display:none-manual.html": {
+    "/core-aam/exclude_element_hidden_with_css_display_none-manual.html": {
       "byUA": {
         "FF01": "OK",
         "FF02": "OK",
@@ -4479,7 +4460,7 @@
         }
       }
     },
-    "/core-aam/exclude_element_hidden_with_css_visibility:hidden-manual.html": {
+    "/core-aam/exclude_element_hidden_with_css_visibility_hidden-manual.html": {
       "byUA": {
         "FF01": "OK",
         "FF02": "OK",
@@ -4655,18 +4636,17 @@
             "FF01": "FAIL",
             "FF02": "FAIL",
             "GC02": "FAIL",
-            "WK01": "FAIL",
-            "WK02": "FAIL"
+            "WK01": "PASS",
+            "WK02": "PASS"
           },
           "UAmessage": {
             "FF01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
             "FF02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "GC02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
+            "GC02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 5
+            "FAIL": 3,
+            "PASS": 2
           }
         }
       }
@@ -4690,18 +4670,17 @@
             "FF01": "FAIL",
             "FF02": "FAIL",
             "GC02": "FAIL",
-            "WK01": "FAIL",
-            "WK02": "FAIL"
+            "WK01": "PASS",
+            "WK02": "PASS"
           },
           "UAmessage": {
             "FF01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
             "FF02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "GC02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
+            "GC02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 5
+            "FAIL": 3,
+            "PASS": 2
           }
         }
       }
@@ -4725,18 +4704,17 @@
             "FF01": "FAIL",
             "FF02": "FAIL",
             "GC02": "FAIL",
-            "WK01": "FAIL",
-            "WK02": "FAIL"
+            "WK01": "PASS",
+            "WK02": "PASS"
           },
           "UAmessage": {
             "FF01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
             "FF02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "GC02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
+            "GC02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 5
+            "FAIL": 3,
+            "PASS": 2
           }
         }
       }
@@ -4894,18 +4872,16 @@
             "FF01": "FAIL",
             "FF02": "FAIL",
             "GC02": "PASS",
-            "WK01": "FAIL",
-            "WK02": "FAIL"
+            "WK01": "PASS",
+            "WK02": "PASS"
           },
           "UAmessage": {
             "FF01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "FF02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK01": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false",
-            "WK02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
+            "FF02": "assert_true: \"property accessible is false\" failed   \n**Actual value:** true  \n;  expected true got false"
           },
           "totals": {
-            "FAIL": 4,
-            "PASS": 1
+            "FAIL": 2,
+            "PASS": 3
           }
         }
       }
