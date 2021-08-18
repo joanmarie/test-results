@@ -1,12 +1,84 @@
 {
   "results": [
     {
+      "test": "/core-aam/aria-expanded_not_supported_on_alert.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on alert",
+          "status": "FAIL",
+          "message": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_banner.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on banner",
+          "status": "FAIL",
+          "message": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_dialog.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on dialog",
+          "status": "FAIL",
+          "message": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_feed.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on feed",
+          "status": "FAIL",
+          "message": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_form.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on form",
+          "status": "FAIL",
+          "message": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_group.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on group",
+          "status": "FAIL",
+          "message": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/alert-manual.html",
       "subtests": [
         {
           "name": "alert",
-          "status": "FAIL",
-          "message": "assert_true: \"property AXRole is AXGroup\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n; \"property AXSubrole is AXApplicationAlert\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n; \"property AXRoleDescription is alert\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -29,8 +101,8 @@
       "subtests": [
         {
           "name": "application",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXWebApplication\" failed   \n**Actual value:** 'AXLandmarkApplication'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -67,39 +139,21 @@
     },
     {
       "test": "/core-aam/aria-autocomplete_both-manual.html",
-      "subtests": [
-        {
-          "name": "aria-autocomplete=both",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-autocomplete_inline-manual.html",
-      "subtests": [
-        {
-          "name": "aria-autocomplete=inline",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-autocomplete_list-manual.html",
-      "subtests": [
-        {
-          "name": "aria-autocomplete=list",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-busy_false-manual.html",
@@ -159,8 +213,8 @@
       "subtests": [
         {
           "name": "aria-checked=false on menuitemradio",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXValue is 0\" failed   \n**Actual value:** ''  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -195,8 +249,8 @@
       "subtests": [
         {
           "name": "aria-checked=true on menuitemradio",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXValue is 1\" failed   \n**Actual value:** ''  \n; \"property AXMenuItemMarkChar is ✓\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -220,15 +274,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-colcount_new-manual.html",
+      "test": "/core-aam/aria-colcount-manual.html",
       "subtests": [
         {
-          "name": "aria-colcount NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-colcount",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIAColumnCount is 3\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         },
         {
-          "name": "aria-colcount NEW 1",
+          "name": "aria-colcount 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API AXAPI expected false got true"
         }
@@ -237,24 +291,24 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-colindex_new-manual.html",
+      "test": "/core-aam/aria-colindex-manual.html",
       "subtests": [
         {
-          "name": "aria-colindex NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-colindex",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIAColumnIndex is 3\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-colspan_new-manual.html",
+      "test": "/core-aam/aria-colspan-manual.html",
       "subtests": [
         {
-          "name": "aria-colspan NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-colspan",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXColumnIndexRange.length is 3\" failed   \n**Actual value:** '1'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -279,21 +333,15 @@
     },
     {
       "test": "/core-aam/aria-current_value_changes-manual.html",
-      "subtests": [
-        {
-          "name": "aria-current value changes",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
-      "test": "/core-aam/aria-current_with_non-false_allowed_value_new-manual.html",
+      "test": "/core-aam/aria-current_with_non-false_allowed_value-manual.html",
       "subtests": [
         {
-          "name": "aria-current with non-false allowed value NEW",
+          "name": "aria-current with non-false allowed value",
           "status": "FAIL",
           "message": "assert_true: \"property AXARIACurrent is step\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
         }
@@ -302,10 +350,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-current_with_unrecognized_value_new-manual.html",
+      "test": "/core-aam/aria-current_with_unrecognized_value-manual.html",
       "subtests": [
         {
-          "name": "aria-current with unrecognized value NEW",
+          "name": "aria-current with unrecognized value",
           "status": "PASS",
           "message": null
         }
@@ -331,16 +379,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-details_new-manual.html",
-      "subtests": [
-        {
-          "name": "aria-details NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "test": "/core-aam/aria-details-manual.html",
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-disabled_false-manual.html",
@@ -373,15 +415,9 @@
     },
     {
       "test": "/core-aam/aria-disabled_value_changes-manual.html",
-      "subtests": [
-        {
-          "name": "aria-disabled value changes",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-dropeffect_copy-manual.html",
@@ -400,8 +436,8 @@
       "subtests": [
         {
           "name": "aria-dropeffect=execute",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXDropEffects is [execute]\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -412,8 +448,8 @@
       "subtests": [
         {
           "name": "aria-dropeffect=link",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXDropEffects is [link]\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -424,8 +460,8 @@
       "subtests": [
         {
           "name": "aria-dropeffect=move",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXDropEffects is [move]\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -433,15 +469,9 @@
     },
     {
       "test": "/core-aam/aria-dropeffect_none-manual.html",
-      "subtests": [
-        {
-          "name": "aria-dropeffect=none",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-dropeffect_popup-manual.html",
@@ -457,23 +487,34 @@
     },
     {
       "test": "/core-aam/aria-dropeffect_value_changes-manual.html",
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
+    },
+    {
+      "test": "/core-aam/aria-errormessage_aria-invalid_false-manual.html",
       "subtests": [
         {
-          "name": "aria-dropeffect value changes",
+          "name": "aria-errormessage",
           "status": "PASS",
           "message": null
+        },
+        {
+          "name": "aria-errormessage 1",
+          "status": "FAIL",
+          "message": "assert_false: NOTRUN: No assertion for API AXAPI expected false got true"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-errormessage-manual.html",
+      "test": "/core-aam/aria-errormessage_aria-invalid_true-manual.html",
       "subtests": [
         {
           "name": "aria-errormessage",
           "status": "FAIL",
-          "message": "assert_true: \"property AXValidationError is hello world\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "message": "assert_true: \"property AXValidationError is hello world\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         },
         {
           "name": "aria-errormessage 1",
@@ -533,6 +574,42 @@
       "message": null
     },
     {
+      "test": "/core-aam/aria-expanded_true_on_menuitem-manual.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on menuitem",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_true_on_menuitemcheckbox-manual.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on menuitemcheckbox",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_true_on_menuitemradio-manual.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on menuitemradio",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/aria-expanded_true_on_switch-manual.html",
       "subtests": [
         {
@@ -583,8 +660,8 @@
       "subtests": [
         {
           "name": "aria-grabbed=false",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXGrabbed is NO\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -595,8 +672,8 @@
       "subtests": [
         {
           "name": "aria-grabbed=true",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXGrabbed is YES\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -604,21 +681,15 @@
     },
     {
       "test": "/core-aam/aria-grabbed_value_changes-manual.html",
-      "subtests": [
-        {
-          "name": "aria-grabbed value changes",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
-      "test": "/core-aam/aria-haspopup_dialog_new-manual.html",
+      "test": "/core-aam/aria-haspopup_dialog-manual.html",
       "subtests": [
         {
-          "name": "aria-haspopup=dialog NEW",
+          "name": "aria-haspopup=dialog",
           "status": "FAIL",
           "message": "assert_true: \"property actions contains AXShowMenu\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
         }
@@ -628,18 +699,12 @@
     },
     {
       "test": "/core-aam/aria-haspopup_false-manual.html",
-      "subtests": [
-        {
-          "name": "aria-haspopup=false",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
-      "test": "/core-aam/aria-haspopup_listbox_new-manual.html",
+      "test": "/core-aam/aria-haspopup_listbox-manual.html",
       "subtests": [
         {
           "name": "aria-haspopup=listbox NEW",
@@ -651,10 +716,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-haspopup_menu_new-manual.html",
+      "test": "/core-aam/aria-haspopup_menu-manual.html",
       "subtests": [
         {
-          "name": "aria-haspopup=menu NEW",
+          "name": "aria-haspopup=menu",
           "status": "PASS",
           "message": null
         }
@@ -663,10 +728,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-haspopup_tree_new-manual.html",
+      "test": "/core-aam/aria-haspopup_tree-manual.html",
       "subtests": [
         {
-          "name": "aria-haspopup=tree NEW",
+          "name": "aria-haspopup=tree",
           "status": "PASS",
           "message": null
         }
@@ -699,10 +764,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-hidden_true_when_element_is_focused_or_fires_event_new-manual.html",
+      "test": "/core-aam/aria-hidden_true_when_element_is_focused_or_fires_event-manual.html",
       "subtests": [
         {
-          "name": "aria-hidden=true when element is focused or fires event NEW",
+          "name": "aria-hidden=true when element is focused or fires event",
           "status": "FAIL",
           "message": "assert_true: \"property accessible is true\" failed   \n**Actual value:** 'false'  \n;  expected true got false"
         }
@@ -732,8 +797,8 @@
       "subtests": [
         {
           "name": "aria-invalid=false",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXInvalid is false\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -744,8 +809,8 @@
       "subtests": [
         {
           "name": "aria-invalid=grammar",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXInvalid is grammar\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -756,8 +821,8 @@
       "subtests": [
         {
           "name": "aria-invalid=spelling",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXInvalid is spelling\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -768,8 +833,8 @@
       "subtests": [
         {
           "name": "aria-invalid=true",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXInvalid is true\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -780,41 +845,35 @@
       "subtests": [
         {
           "name": "aria-invalid value changes",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"event type is AXInvalidStatusChanged\" failed   \n;  expected true got false"
         },
         {
           "name": "aria-invalid value changes 1",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"event type is AXInvalidStatusChanged\" failed   \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-invalid_with_unrecognized_value_new-manual.html",
+      "test": "/core-aam/aria-invalid_with_unrecognized_value-manual.html",
       "subtests": [
         {
-          "name": "aria-invalid with unrecognized value NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-invalid with unrecognized value",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXInvalid is true\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-keyshortcuts_new-manual.html",
-      "subtests": [
-        {
-          "name": "aria-keyshortcuts NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "test": "/core-aam/aria-keyshortcuts-manual.html",
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-label-manual.html",
@@ -833,8 +892,8 @@
       "subtests": [
         {
           "name": "aria-labelledby",
-          "status": "FAIL",
-          "message": "assert_true: \"property AXTitleUIElement is label\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         },
         {
           "name": "aria-labelledby 1",
@@ -891,8 +950,8 @@
       "subtests": [
         {
           "name": "aria-live=off",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIALive is off\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         },
         {
           "name": "aria-live=off 1",
@@ -921,15 +980,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-modal_false_new-manual.html",
+      "test": "/core-aam/aria-modal_false-manual.html",
       "subtests": [
         {
-          "name": "aria-modal=false NEW",
+          "name": "aria-modal=false",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API AXAPI expected false got true"
         },
         {
-          "name": "aria-modal=false NEW 1",
+          "name": "aria-modal=false 1",
           "status": "PASS",
           "message": null
         }
@@ -938,17 +997,17 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-modal_true_new-manual.html",
+      "test": "/core-aam/aria-modal_true-manual.html",
       "subtests": [
         {
-          "name": "aria-modal=true NEW",
+          "name": "aria-modal=true",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API AXAPI expected false got true"
         },
         {
-          "name": "aria-modal=true NEW 1",
-          "status": "PASS",
-          "message": null
+          "name": "aria-modal=true 1",
+          "status": "FAIL",
+          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -956,51 +1015,27 @@
     },
     {
       "test": "/core-aam/aria-multiline_false-manual.html",
-      "subtests": [
-        {
-          "name": "aria-multiline=false",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-multiline_true-manual.html",
-      "subtests": [
-        {
-          "name": "aria-multiline=true",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-multiselectable_false-manual.html",
-      "subtests": [
-        {
-          "name": "aria-multiselectable=false",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-multiselectable_true-manual.html",
-      "subtests": [
-        {
-          "name": "aria-multiselectable=true",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-orientation_horizontal-manual.html",
@@ -1015,12 +1050,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-orientation_undefined_new-manual.html",
+      "test": "/core-aam/aria-orientation_undefined-manual.html",
       "subtests": [
         {
-          "name": "aria-orientation=undefined NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-orientation=undefined",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXOrientation is AXUnknownOrientation\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1031,8 +1066,8 @@
       "subtests": [
         {
           "name": "aria-orientation=vertical",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXOrientation is AXVerticalOrientation\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1043,8 +1078,8 @@
       "subtests": [
         {
           "name": "aria-owns may need manual verification",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXOwns is [owned1,owned2]\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         },
         {
           "name": "aria-owns may need manual verification 1",
@@ -1061,12 +1096,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-placeholder_new-manual.html",
+      "test": "/core-aam/aria-placeholder-manual.html",
       "subtests": [
         {
-          "name": "aria-placeholder NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-placeholder",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXPlaceholderValue is hello world\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1077,20 +1112,20 @@
       "subtests": [
         {
           "name": "aria-posinset",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIAPosInSet is 2\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-posinset_and_aria-setsize_on_row-manual.html",
+      "test": "/core-aam/aria-posinset_and_aria-setsize_on_treegrid_row-manual.html",
       "subtests": [
         {
-          "name": "aria-posinset and aria-setsize on row",
-          "status": "PASS",
-          "message": null
+          "name": "aria-posinset and aria-setsize on treegrid row",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIAPosInSet is 2\" failed   \n**Actual value:** 'None'  \n; \"property AXARIASetSize is 100\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1134,15 +1169,9 @@
     },
     {
       "test": "/core-aam/aria-pressed_value_changes-manual.html",
-      "subtests": [
-        {
-          "name": "aria-pressed value changes",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-readonly_false-manual.html",
@@ -1157,10 +1186,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-readonly_is_unspecified_on_gridcell_new-manual.html",
+      "test": "/core-aam/aria-readonly_is_unspecified_on_gridcell-manual.html",
       "subtests": [
         {
-          "name": "aria-readonly is unspecified on gridcell NEW",
+          "name": "aria-readonly is unspecified on gridcell",
           "status": "PASS",
           "message": null
         }
@@ -1211,15 +1240,9 @@
     },
     {
       "test": "/core-aam/aria-readonly_value_changes-manual.html",
-      "subtests": [
-        {
-          "name": "aria-readonly value changes",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-relevant-manual.html",
@@ -1264,50 +1287,44 @@
     },
     {
       "test": "/core-aam/aria-required_value_changes-manual.html",
-      "subtests": [
-        {
-          "name": "aria-required value changes",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
-      "test": "/core-aam/aria-roledescription_is_empty_or_whitespace_characters_new-manual.html",
+      "test": "/core-aam/aria-roledescription-manual.html",
       "subtests": [
         {
-          "name": "aria-roledescription is empty or whitespace characters NEW",
+          "name": "aria-roledescription",
           "status": "FAIL",
-          "message": "assert_true: \"property AXRoleDescription is group\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "message": "assert_true: \"property AXRoleDescription is hello world\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-roledescription_new-manual.html",
+      "test": "/core-aam/aria-roledescription_is_empty_or_whitespace_characters-manual.html",
       "subtests": [
         {
-          "name": "aria-roledescription NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-roledescription is empty or whitespace characters",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRoleDescription is group\" failed   \n**Actual value:** ' '  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-rowcount_new-manual.html",
+      "test": "/core-aam/aria-rowcount-manual.html",
       "subtests": [
         {
-          "name": "aria-rowcount NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-rowcount",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIARowCount is 3\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         },
         {
-          "name": "aria-rowcount NEW 1",
+          "name": "aria-rowcount 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API AXAPI expected false got true"
         }
@@ -1316,15 +1333,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-rowindex_new-manual.html",
+      "test": "/core-aam/aria-rowindex-manual.html",
       "subtests": [
         {
-          "name": "aria-rowindex NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-rowindex",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIARowIndex is 3\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         },
         {
-          "name": "aria-rowindex NEW 1",
+          "name": "aria-rowindex 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API AXAPI expected false got true"
         }
@@ -1333,12 +1350,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-rowspan_new-manual.html",
+      "test": "/core-aam/aria-rowspan-manual.html",
       "subtests": [
         {
-          "name": "aria-rowspan NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-rowspan",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRowIndexRange.length is 2\" failed   \n**Actual value:** '1'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1361,20 +1378,20 @@
       "subtests": [
         {
           "name": "aria-selected=true",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSelected is YES\" failed   \n**Actual value:** 'false'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-setsize_-1_new-manual.html",
+      "test": "/core-aam/aria-setsize_-1-manual.html",
       "subtests": [
         {
-          "name": "aria-setsize=-1 NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-setsize=-1",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIASetSize is -1\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1385,8 +1402,8 @@
       "subtests": [
         {
           "name": "aria-setsize=3",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXARIASetSize is 3\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1397,8 +1414,8 @@
       "subtests": [
         {
           "name": "aria-sort=ascending",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSortDirection is AXAscendingSortDirection\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1409,8 +1426,8 @@
       "subtests": [
         {
           "name": "aria-sort=descending",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSortDirection is AXDescendingSortDirection\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1418,15 +1435,9 @@
     },
     {
       "test": "/core-aam/aria-sort_none-manual.html",
-      "subtests": [
-        {
-          "name": "aria-sort=none",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
     },
     {
       "test": "/core-aam/aria-sort_other-manual.html",
@@ -1445,8 +1456,8 @@
       "subtests": [
         {
           "name": "aria-valuemax",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXMaxValue is 10\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1457,8 +1468,8 @@
       "subtests": [
         {
           "name": "aria-valuemin",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXMinValue is 2\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1493,8 +1504,20 @@
       "subtests": [
         {
           "name": "aria-valuetext",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXValueDescription is hello world\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-valuetext_on_spinbutton-manual.html",
+      "subtests": [
+        {
+          "name": "aria-valuetext",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXValueDescription is awesome\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1541,20 +1564,20 @@
       "subtests": [
         {
           "name": "blockquote",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/button_with_aria-haspopup_dialog_new-manual.html",
+      "test": "/core-aam/button_with_aria-haspopup_dialog-manual.html",
       "subtests": [
         {
-          "name": "button with aria-haspopup=\"dialog\" NEW",
-          "status": "PASS",
-          "message": null
+          "name": "button with aria-haspopup=\"dialog\"",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXPopUpButton\" failed   \n**Actual value:** 'AXButton'  \n; \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1565,8 +1588,8 @@
       "subtests": [
         {
           "name": "button with aria-haspopup=\"true\"",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXPopUpButton\" failed   \n**Actual value:** 'AXMenuButton'  \n; \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1577,8 +1600,8 @@
       "subtests": [
         {
           "name": "button with default values for aria-pressed and aria-haspopup",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1609,12 +1632,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/cell_new-manual.html",
+      "test": "/core-aam/cell-manual.html",
       "subtests": [
         {
-          "name": "cell NEW",
-          "status": "PASS",
-          "message": null
+          "name": "cell",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1625,6 +1648,18 @@
       "subtests": [
         {
           "name": "checkbox",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/code-manual.html",
+      "subtests": [
+        {
+          "name": "code",
           "status": "PASS",
           "message": null
         }
@@ -1637,8 +1672,8 @@
       "subtests": [
         {
           "name": "columnheader",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1649,6 +1684,18 @@
       "subtests": [
         {
           "name": "combobox",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/combobox-value-calculation-manual.html",
+      "subtests": [
+        {
+          "name": "combobox value calculation",
           "status": "PASS",
           "message": null
         }
@@ -1685,8 +1732,8 @@
       "subtests": [
         {
           "name": "definition",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXDefinition\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1741,6 +1788,18 @@
       "message": null
     },
     {
+      "test": "/core-aam/emphasis-manual.html",
+      "subtests": [
+        {
+          "name": "emphasis",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXEmphasisStyleGroup\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/exclude_element_hidden_with_css_display_none-manual.html",
       "subtests": [
         {
@@ -1777,192 +1836,24 @@
       "message": null
     },
     {
-      "test": "/core-aam/exclude_presentational_children_of_button-manual.html",
+      "test": "/core-aam/feed-manual.html",
       "subtests": [
         {
-          "name": "Exclude presentational children of button",
-          "status": "PASS",
-          "message": null
+          "name": "feed",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXApplicationGroup\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/exclude_presentational_children_of_checkbox_new-manual.html",
+      "test": "/core-aam/figure-manual.html",
       "subtests": [
         {
-          "name": "Exclude presentational children of checkbox NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_img-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of img",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_math-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of math",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_menuitemcheckbox_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of menuitemcheckbox NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_menuitemradio_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of menuitemradio NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_option_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of option NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_progressbar-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of progressbar",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_radio_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of radio NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_scrollbar-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of scrollbar",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_separator-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of separator",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_slider-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of slider",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_switch_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of switch NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_tab_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of tab NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/feed_new-manual.html",
-      "subtests": [
-        {
-          "name": "feed NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/figure_new-manual.html",
-      "subtests": [
-        {
-          "name": "figure NEW",
-          "status": "PASS",
-          "message": null
+          "name": "figure",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1970,17 +1861,59 @@
     },
     {
       "test": "/core-aam/form-manual.html",
-      "subtests": [],
-      "status": "NOTRUN",
-      "message": ""
+      "subtests": [
+        {
+          "name": "form",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXLandmarkForm'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/generic-manual.html",
+      "subtests": [
+        {
+          "name": "generic",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/generic_roledescription_prohibited-manual.html",
+      "subtests": [
+        {
+          "name": "generic roledescription prohibited",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRoleDescription isNot foo\" failed   \n**Actual value:** 'foo'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/grid-level-not-supported-manual.html",
+      "subtests": [
+        {
+          "name": "grid level not supported",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
     },
     {
       "test": "/core-aam/grid-manual.html",
       "subtests": [
         {
           "name": "grid",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n; \"property AXHeader is AXGroup\" failed   \n**Actual value:** 'None'  \n; \"property AXRowHeaderUIElements is [rowheader1,rowheader2]\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1991,8 +1924,8 @@
       "subtests": [
         {
           "name": "gridcell",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2003,8 +1936,8 @@
       "subtests": [
         {
           "name": "group",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXApplicationGroup\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2015,8 +1948,8 @@
       "subtests": [
         {
           "name": "group as child of listbox",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXGroup\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n; \"property AXSubrole is AXApplicationGroup\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2027,6 +1960,18 @@
       "subtests": [
         {
           "name": "heading",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/heading-no-level-manual.html",
+      "subtests": [
+        {
+          "name": "heading with no author-provided level",
           "status": "PASS",
           "message": null
         }
@@ -2039,8 +1984,8 @@
       "subtests": [
         {
           "name": "img",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2071,10 +2016,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/include_element_referenced_by_global_aria-details_new-manual.html",
+      "test": "/core-aam/include_element_referenced_by_global_aria-details-manual.html",
       "subtests": [
         {
-          "name": "Include element referenced by global aria-details NEW",
+          "name": "Include element referenced by global aria-details",
           "status": "PASS",
           "message": null
         }
@@ -2083,10 +2028,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/include_element_referenced_by_global_aria-errormessage_new-manual.html",
+      "test": "/core-aam/include_element_referenced_by_global_aria-errormessage-manual.html",
       "subtests": [
         {
-          "name": "Include element referenced by global aria-errormessage NEW",
+          "name": "Include element referenced by global aria-errormessage",
           "status": "PASS",
           "message": null
         }
@@ -2171,8 +2116,8 @@
       "subtests": [
         {
           "name": "link",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2195,8 +2140,8 @@
       "subtests": [
         {
           "name": "listbox not owned by or child of combobox",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2207,8 +2152,8 @@
       "subtests": [
         {
           "name": "listbox owned by or child of combobox",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXList\" failed   \n**Actual value:** 'AXMenu'  \n; \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2219,8 +2164,8 @@
       "subtests": [
         {
           "name": "listitem",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2255,8 +2200,8 @@
       "subtests": [
         {
           "name": "marquee",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXGroup\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2267,8 +2212,8 @@
       "subtests": [
         {
           "name": "math",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXGroup\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2279,8 +2224,8 @@
       "subtests": [
         {
           "name": "Math role children are not presentational",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is true\" failed   \n**Actual value:** 'false'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2291,8 +2236,8 @@
       "subtests": [
         {
           "name": "menu",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2303,8 +2248,8 @@
       "subtests": [
         {
           "name": "menu child of menu item",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2315,8 +2260,8 @@
       "subtests": [
         {
           "name": "menubar",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2327,8 +2272,8 @@
       "subtests": [
         {
           "name": "menuitem not owned by or child of group",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2339,8 +2284,8 @@
       "subtests": [
         {
           "name": "menuitem owned by or child of group",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXMenuButton\" failed   \n**Actual value:** 'AXMenuItem'  \n; \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2351,8 +2296,8 @@
       "subtests": [
         {
           "name": "menuitemcheckbox",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2363,8 +2308,8 @@
       "subtests": [
         {
           "name": "menuitemcheckbox child of group",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2375,8 +2320,8 @@
       "subtests": [
         {
           "name": "menuitemradio",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2388,7 +2333,7 @@
         {
           "name": "meter",
           "status": "FAIL",
-          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXMeter'  \n;  expected true got false"
+          "message": "assert_true: \"property AXRole is AXLevelIndicator\" failed   \n**Actual value:** 'AXGroup'  \n; \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2407,10 +2352,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/none_new-manual.html",
+      "test": "/core-aam/none-manual.html",
       "subtests": [
         {
-          "name": "none NEW",
+          "name": "none",
           "status": "PASS",
           "message": null
         }
@@ -2431,24 +2376,24 @@
       "message": null
     },
     {
-      "test": "/core-aam/none_used_on_table_element_with_td_children_new-manual.html",
+      "test": "/core-aam/none_used_on_table_element_with_td_children-manual.html",
       "subtests": [
         {
-          "name": "none used on table element with td children NEW",
-          "status": "PASS",
-          "message": null
+          "name": "none used on table element with td children",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/none_used_on_ul_element_with_li_children_new-manual.html",
+      "test": "/core-aam/none_used_on_ul_element_with_li_children-manual.html",
       "subtests": [
         {
-          "name": "none used on ul element with li children NEW",
+          "name": "none used on ul element with li children",
           "status": "FAIL",
-          "message": "assert_true: \"property AXRole is AXGroup\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n; \"property AXRoleDescription is group\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2471,8 +2416,8 @@
       "subtests": [
         {
           "name": "option inside combobox",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXRole is AXStaticText\" failed   \n**Actual value:** 'AXMenuItem'  \n; \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2483,8 +2428,8 @@
       "subtests": [
         {
           "name": "option not inside combobox",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2495,8 +2440,8 @@
       "subtests": [
         {
           "name": "paragraph",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2527,24 +2472,24 @@
       "message": null
     },
     {
-      "test": "/core-aam/presentation_used_on_table_element_with_td_children_new-manual.html",
+      "test": "/core-aam/presentation_used_on_table_element_with_td_children-manual.html",
       "subtests": [
         {
-          "name": "presentation used on table element with td children NEW",
-          "status": "PASS",
-          "message": null
+          "name": "presentation used on table element with td children",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/presentation_used_on_ul_element_with_li_children_new-manual.html",
+      "test": "/core-aam/presentation_used_on_ul_element_with_li_children-manual.html",
       "subtests": [
         {
-          "name": "presentation used on ul element with li children NEW",
+          "name": "presentation used on ul element with li children",
           "status": "FAIL",
-          "message": "assert_true: \"property AXRole is AXGroup\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n; \"property AXRoleDescription is group\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2555,8 +2500,20 @@
       "subtests": [
         {
           "name": "progressbar",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/progressbar-no-min-or-max-manual.html",
+      "subtests": [
+        {
+          "name": "progressbar no min or max",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXMinValue is 0\" failed   \n**Actual value:** 'None'  \n; \"property AXMaxValue is 100\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2567,8 +2524,8 @@
       "subtests": [
         {
           "name": "radio",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2579,6 +2536,18 @@
       "subtests": [
         {
           "name": "radiogroup",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/region_with_an_accessible_name-manual.html",
+      "subtests": [
+        {
+          "name": "region with an accessible name",
           "status": "PASS",
           "message": null
         }
@@ -2587,24 +2556,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/region_with_an_accessible_name_new-manual.html",
+      "test": "/core-aam/region_without_an_accessible_name-manual.html",
       "subtests": [
         {
-          "name": "region with an accessible name NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/region_without_an_accessible_name_new-manual.html",
-      "subtests": [
-        {
-          "name": "region without an accessible name NEW",
-          "status": "PASS",
-          "message": null
+          "name": "region without an accessible name",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2615,8 +2572,8 @@
       "subtests": [
         {
           "name": "row inside treegrid",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2627,8 +2584,8 @@
       "subtests": [
         {
           "name": "row not inside treegrid",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2639,6 +2596,18 @@
       "subtests": [
         {
           "name": "rowgroup",
+          "status": "FAIL",
+          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/rowgroup-no-name-from-contents-manual.html",
+      "subtests": [
+        {
+          "name": "rowgroup no name from contents",
           "status": "PASS",
           "message": null
         }
@@ -2651,8 +2620,8 @@
       "subtests": [
         {
           "name": "rowheader",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2663,8 +2632,8 @@
       "subtests": [
         {
           "name": "scrollbar",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2683,10 +2652,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/searchbox_new-manual.html",
+      "test": "/core-aam/searchbox-manual.html",
       "subtests": [
         {
-          "name": "searchbox NEW",
+          "name": "searchbox",
           "status": "PASS",
           "message": null
         }
@@ -2695,12 +2664,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/separator_focusable_new-manual.html",
+      "test": "/core-aam/separator_focusable-manual.html",
       "subtests": [
         {
-          "name": "separator focusable NEW",
-          "status": "PASS",
-          "message": null
+          "name": "separator focusable",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXContentSeparator'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2711,8 +2680,8 @@
       "subtests": [
         {
           "name": "separator non-focusable",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXContentSeparator'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2723,8 +2692,8 @@
       "subtests": [
         {
           "name": "slider",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2735,8 +2704,8 @@
       "subtests": [
         {
           "name": "spinbutton",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2755,12 +2724,24 @@
       "message": null
     },
     {
+      "test": "/core-aam/strong-manual.html",
+      "subtests": [
+        {
+          "name": "strong",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXStrongStyleGroup\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/subscript-manual.html",
       "subtests": [
         {
           "name": "subscript",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXSubscriptStyleGroup\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2771,18 +2752,18 @@
       "subtests": [
         {
           "name": "superscript",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXSuperscriptStyleGroup\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/switch_new-manual.html",
+      "test": "/core-aam/switch-manual.html",
       "subtests": [
         {
-          "name": "switch NEW",
+          "name": "switch",
           "status": "PASS",
           "message": null
         }
@@ -2795,18 +2776,30 @@
       "subtests": [
         {
           "name": "tab",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXTabButton'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/table_new-manual.html",
+      "test": "/core-aam/table-manual.html",
       "subtests": [
         {
-          "name": "table NEW",
+          "name": "table",
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n; \"property AXHeader is AXGroup\" failed   \n**Actual value:** 'None'  \n; \"property AXRowHeaderUIElements is [rowheader1,rowheader2]\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/tablist-level-not-supported-manual.html",
+      "subtests": [
+        {
+          "name": "tablist level not supported",
           "status": "PASS",
           "message": null
         }
@@ -2819,8 +2812,8 @@
       "subtests": [
         {
           "name": "tablist",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2839,10 +2832,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/term_new-manual.html",
+      "test": "/core-aam/term-manual.html",
       "subtests": [
         {
-          "name": "term NEW",
+          "name": "term",
           "status": "PASS",
           "message": null
         }
@@ -2879,8 +2872,8 @@
       "subtests": [
         {
           "name": "time",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is AXTimeGroup\" failed   \n**Actual value:** 'AXApplicationGroup'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2903,8 +2896,8 @@
       "subtests": [
         {
           "name": "toolbar",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2927,8 +2920,8 @@
       "subtests": [
         {
           "name": "tree",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2939,8 +2932,8 @@
       "subtests": [
         {
           "name": "treegrid",
-          "status": "PASS",
-          "message": null
+          "status": "FAIL",
+          "message": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXUnknown'  \n;  expected true got false"
         }
       ],
       "status": "OK",

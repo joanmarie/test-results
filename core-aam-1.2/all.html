@@ -2,167 +2,413 @@
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
-    <title>Core-AAM 1.2: All Results</title>
+    <title>ARIA 1.2 User Agent Implementations: All Results</title>
     <link rel='stylesheet' href='bootstrap.min.css'>
     <link rel='stylesheet' href='analysis.css'>
   </head>
   <body>
     <div class='container'>
       <header>
-        <h1>Core-AAM 1.2: All Results</h1>
+        <h1>ARIA 1.2 User Agent Implementations: All Results</h1>
       </header>
       
-      <p><strong>Test files</strong>: 17; <strong>Total subtests</strong>: 17</p>
+      <p><strong>Test files</strong>: 39; <strong>Total subtests</strong>: 40</p>
       <h3>Test Files</h3>
-<ol class='toc'><li><a href='#test-file-0'>/core-aam/aria-expanded_true_on_application-manual.html</a></li>
-<li><a href='#test-file-1'>/core-aam/aria-expanded_true_on_checkbox-manual.html</a></li>
-<li><a href='#test-file-2'>/core-aam/aria-expanded_true_on_switch-manual.html</a></li>
-<li><a href='#test-file-3'>/core-aam/aria-posinset_and_aria-setsize_on_row-manual.html</a></li>
-<li><a href='#test-file-4'>/core-aam/aria-required_true_on_checkbox-manual.html</a></li>
-<li><a href='#test-file-5'>/core-aam/blockquote-manual.html</a></li>
-<li><a href='#test-file-6'>/core-aam/caption-manual.html</a></li>
-<li><a href='#test-file-7'>/core-aam/deletion-manual.html</a></li>
-<li><a href='#test-file-8'>/core-aam/group_as_child_of_listbox-manual.html</a></li>
-<li><a href='#test-file-9'>/core-aam/insertion-manual.html</a></li>
-<li><a href='#test-file-10'>/core-aam/math_role_children_are_not_presentational-manual.html</a></li>
-<li><a href='#test-file-11'>/core-aam/menuitemcheckbox_child_of_group-manual.html</a></li>
-<li><a href='#test-file-12'>/core-aam/meter-manual.html</a></li>
-<li><a href='#test-file-13'>/core-aam/paragraph-manual.html</a></li>
-<li><a href='#test-file-14'>/core-aam/subscript-manual.html</a></li>
-<li><a href='#test-file-15'>/core-aam/superscript-manual.html</a></li>
-<li><a href='#test-file-16'>/core-aam/time-manual.html</a></li>
+<ol class='toc'><li><a href='#test-file-0'>/core-aam/aria-expanded_not_supported_on_alert.html</a></li>
+<li><a href='#test-file-1'>/core-aam/aria-expanded_not_supported_on_banner.html</a></li>
+<li><a href='#test-file-2'>/core-aam/aria-expanded_not_supported_on_dialog.html</a></li>
+<li><a href='#test-file-3'>/core-aam/aria-expanded_not_supported_on_feed.html</a></li>
+<li><a href='#test-file-4'>/core-aam/aria-expanded_not_supported_on_form.html</a></li>
+<li><a href='#test-file-5'>/core-aam/aria-expanded_not_supported_on_group.html</a></li>
+<li><a href='#test-file-6'>/core-aam/aria-errormessage_aria-invalid_false-manual.html</a></li>
+<li><a href='#test-file-7'>/core-aam/aria-expanded_true_on_application-manual.html</a></li>
+<li><a href='#test-file-8'>/core-aam/aria-expanded_true_on_checkbox-manual.html</a></li>
+<li><a href='#test-file-9'>/core-aam/aria-expanded_true_on_menuitem-manual.html</a></li>
+<li><a href='#test-file-10'>/core-aam/aria-expanded_true_on_menuitemcheckbox-manual.html</a></li>
+<li><a href='#test-file-11'>/core-aam/aria-expanded_true_on_menuitemradio-manual.html</a></li>
+<li><a href='#test-file-12'>/core-aam/aria-expanded_true_on_switch-manual.html</a></li>
+<li><a href='#test-file-13'>/core-aam/aria-posinset_and_aria-setsize_on_treegrid_row-manual.html</a></li>
+<li><a href='#test-file-14'>/core-aam/aria-required_true_on_checkbox-manual.html</a></li>
+<li><a href='#test-file-15'>/core-aam/aria-valuetext_on_spinbutton-manual.html</a></li>
+<li><a href='#test-file-16'>/core-aam/blockquote-manual.html</a></li>
+<li><a href='#test-file-17'>/core-aam/caption-manual.html</a></li>
+<li><a href='#test-file-18'>/core-aam/code-manual.html</a></li>
+<li><a href='#test-file-19'>/core-aam/combobox-value-calculation-manual.html</a></li>
+<li><a href='#test-file-20'>/core-aam/deletion-manual.html</a></li>
+<li><a href='#test-file-21'>/core-aam/emphasis-manual.html</a></li>
+<li><a href='#test-file-22'>/core-aam/generic-manual.html</a></li>
+<li><a href='#test-file-23'>/core-aam/generic_roledescription_prohibited-manual.html</a></li>
+<li><a href='#test-file-24'>/core-aam/grid-level-not-supported-manual.html</a></li>
+<li><a href='#test-file-25'>/core-aam/group_as_child_of_listbox-manual.html</a></li>
+<li><a href='#test-file-26'>/core-aam/heading-no-level-manual.html</a></li>
+<li><a href='#test-file-27'>/core-aam/insertion-manual.html</a></li>
+<li><a href='#test-file-28'>/core-aam/math_role_children_are_not_presentational-manual.html</a></li>
+<li><a href='#test-file-29'>/core-aam/menuitemcheckbox_child_of_group-manual.html</a></li>
+<li><a href='#test-file-30'>/core-aam/meter-manual.html</a></li>
+<li><a href='#test-file-31'>/core-aam/paragraph-manual.html</a></li>
+<li><a href='#test-file-32'>/core-aam/progressbar-no-min-or-max-manual.html</a></li>
+<li><a href='#test-file-33'>/core-aam/rowgroup-no-name-from-contents-manual.html</a></li>
+<li><a href='#test-file-34'>/core-aam/strong-manual.html</a></li>
+<li><a href='#test-file-35'>/core-aam/subscript-manual.html</a></li>
+<li><a href='#test-file-36'>/core-aam/superscript-manual.html</a></li>
+<li><a href='#test-file-37'>/core-aam/tablist-level-not-supported-manual.html</a></li>
+<li><a href='#test-file-38'>/core-aam/time-manual.html</a></li>
 </ol>
       <table class='table persist-area'>
         <thead><tr class='persist-header'><th>Test <span class='message_toggle'>Show/Hide Messages</span></th><th>FF01</th><th>FF02</th><th>GC01</th><th>GC02</th><th>WK01</th><th>WK02</th></tr></thead>
-<tr class='test' id='test-file-0'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_application-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_application-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-0-0' class='subtest'><td>aria-expanded=true on application</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-1'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_checkbox-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_checkbox-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-1-0' class='subtest'><td>aria-expanded=true on checkbox</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-2'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_switch-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_switch-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-2-0' class='subtest'><td>aria-expanded=true on switch</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-3'><td><a href='http://www.w3c-test.org/core-aam/aria-posinset_and_aria-setsize_on_row-manual.html' target='_blank'>/core-aam/aria-posinset_and_aria-setsize_on_row-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-3-0' class='subtest'><td>aria-posinset and aria-setsize on row</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXARIAPosInSet is 2" failed<br />
-<strong>Actual value:</strong> '0'<br />
+<tr class='test' id='test-file-0'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_not_supported_on_alert.html' target='_blank'>/core-aam/aria-expanded_not_supported_on_alert.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-0-0' class='subtest'><td>aria-expanded=true on alert</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property states doesNotContain STATE_EXPANDABLE" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+; "property states doesNotContain STATE_EXPANDED" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXExpanded is NO" failed<br />
+<strong>Actual value:</strong> 'true'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-1'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_not_supported_on_banner.html' target='_blank'>/core-aam/aria-expanded_not_supported_on_banner.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-1-0' class='subtest'><td>aria-expanded=true on banner</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property states doesNotContain STATE_EXPANDABLE" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+; "property states doesNotContain STATE_EXPANDED" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXExpanded is NO" failed<br />
+<strong>Actual value:</strong> 'true'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-2'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_not_supported_on_dialog.html' target='_blank'>/core-aam/aria-expanded_not_supported_on_dialog.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-2-0' class='subtest'><td>aria-expanded=true on dialog</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property states doesNotContain STATE_EXPANDABLE" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+; "property states doesNotContain STATE_EXPANDED" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXExpanded is NO" failed<br />
+<strong>Actual value:</strong> 'true'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-3'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_not_supported_on_feed.html' target='_blank'>/core-aam/aria-expanded_not_supported_on_feed.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-3-0' class='subtest'><td>aria-expanded=true on feed</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXExpanded is NO" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+ERROR: Object not found<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property states doesNotContain STATE_EXPANDABLE" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+; "property states doesNotContain STATE_EXPANDED" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXExpanded is NO" failed<br />
+<strong>Actual value:</strong> 'true'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-4'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_not_supported_on_form.html' target='_blank'>/core-aam/aria-expanded_not_supported_on_form.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-4-0' class='subtest'><td>aria-expanded=true on form</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property states doesNotContain STATE_EXPANDABLE" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+; "property states doesNotContain STATE_EXPANDED" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXExpanded is NO" failed<br />
+<strong>Actual value:</strong> 'true'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-5'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_not_supported_on_group.html' target='_blank'>/core-aam/aria-expanded_not_supported_on_group.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-5-0' class='subtest'><td>aria-expanded=true on group</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1726354">BUG</a></td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property states doesNotContain STATE_EXPANDABLE" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+; "property states doesNotContain STATE_EXPANDED" failed<br />
+<strong>Actual value:</strong> '['STATE_ENABLED', 'STATE_EXPANDABLE', 'STATE_EXPANDED', 'STATE_HORIZONTAL', 'STATE_SENSITIVE', 'STATE_SHOWING', 'STATE_VISIBLE']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXExpanded is NO" failed<br />
+<strong>Actual value:</strong> 'true'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-6'><td><a href='http://www.w3c-test.org/core-aam/aria-errormessage_aria-invalid_false-manual.html' target='_blank'>/core-aam/aria-errormessage_aria-invalid_false-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-6-0' class='subtest'><td>aria-errormessage</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "relation RELATION_ERROR_MESSAGE isNot [error]" failed<br />
+<strong>Actual value:</strong> '[error]'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "relation RELATION_ERROR_MESSAGE isNot [error]" failed<br />
+<strong>Actual value:</strong> '[error]'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr id='subtest-6-1' class='subtest'><td>aria-errormessage 1</td><td class='FAIL'>FAIL</td><td class='undefined'>-</td><td class='PASS'>PASS</td><td class='undefined'>-</td><td class='FAIL'>FAIL</td><td class='undefined'>-</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "relation RELATION_ERROR_FOR isNot [test]" failed<br />
+<strong>Actual value:</strong> '[test]'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "relation RELATION_ERROR_FOR isNot [test]" failed<br />
+<strong>Actual value:</strong> '[test]'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-7'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_application-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_application-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-7-0' class='subtest'><td>aria-expanded=true on application</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-8'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_checkbox-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_checkbox-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-8-0' class='subtest'><td>aria-expanded=true on checkbox</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-9'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_menuitem-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_menuitem-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-9-0' class='subtest'><td>aria-expanded=true on menuitem</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-10'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_menuitemcheckbox-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_menuitemcheckbox-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-10-0' class='subtest'><td>aria-expanded=true on menuitemcheckbox</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-11'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_menuitemradio-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_menuitemradio-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-11-0' class='subtest'><td>aria-expanded=true on menuitemradio</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-12'><td><a href='http://www.w3c-test.org/core-aam/aria-expanded_true_on_switch-manual.html' target='_blank'>/core-aam/aria-expanded_true_on_switch-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-12-0' class='subtest'><td>aria-expanded=true on switch</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-13'><td><a href='http://www.w3c-test.org/core-aam/aria-posinset_and_aria-setsize_on_treegrid_row-manual.html' target='_blank'>/core-aam/aria-posinset_and_aria-setsize_on_treegrid_row-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-13-0' class='subtest'><td>aria-posinset and aria-setsize on treegrid row</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXARIAPosInSet is 2" failed<br />
+<strong>Actual value:</strong> 'None'<br />
 ; "property AXARIASetSize is 100" failed<br />
-<strong>Actual value:</strong> '0'<br />
+<strong>Actual value:</strong> 'None'<br />
 ;  expected true got false</td></tr>
-</table></td></tr>
-<tr class='test' id='test-file-4'><td><a href='http://www.w3c-test.org/core-aam/aria-required_true_on_checkbox-manual.html' target='_blank'>/core-aam/aria-required_true_on_checkbox-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-4-0' class='subtest'><td>aria-required=true on checkbox</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-5'><td><a href='http://www.w3c-test.org/core-aam/blockquote-manual.html' target='_blank'>/core-aam/blockquote-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-5-0' class='subtest'><td>blockquote</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-6'><td><a href='http://www.w3c-test.org/core-aam/caption-manual.html' target='_blank'>/core-aam/caption-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-6-0' class='subtest'><td>caption</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-7'><td><a href='http://www.w3c-test.org/core-aam/deletion-manual.html' target='_blank'>/core-aam/deletion-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-7-0' class='subtest'><td>deletion</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_CONTENT_DELETION" failed<br />
-<strong>Actual value:</strong> 'ROLE_SECTION'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>GC01:</td><td> assert_true: "property role is ROLE_CONTENT_DELETION" failed<br />
-<strong>Actual value:</strong> 'ROLE_SECTION'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXRoleDescription is group" failed<br />
-<strong>Actual value:</strong> 'deletion'<br />
-;  expected true got false</td></tr>
-</table></td></tr>
-<tr class='test' id='test-file-8'><td><a href='http://www.w3c-test.org/core-aam/group_as_child_of_listbox-manual.html' target='_blank'>/core-aam/group_as_child_of_listbox-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-8-0' class='subtest'><td>group as child of listbox</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXSubrole is AXApplicationGroup" failed<br />
+<tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXARIAPosInSet is 2" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+; "property AXARIASetSize is 100" failed<br />
 <strong>Actual value:</strong> 'None'<br />
 ;  expected true got false</td></tr>
 </table></td></tr>
-<tr class='test' id='test-file-9'><td><a href='http://www.w3c-test.org/core-aam/insertion-manual.html' target='_blank'>/core-aam/insertion-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-9-0' class='subtest'><td>insertion</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-14'><td><a href='http://www.w3c-test.org/core-aam/aria-required_true_on_checkbox-manual.html' target='_blank'>/core-aam/aria-required_true_on_checkbox-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-14-0' class='subtest'><td>aria-required=true on checkbox</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-15'><td><a href='http://www.w3c-test.org/core-aam/aria-valuetext_on_spinbutton-manual.html' target='_blank'>/core-aam/aria-valuetext_on_spinbutton-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-15-0' class='subtest'><td>aria-valuetext</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXValueDescription is awesome" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-16'><td><a href='http://www.w3c-test.org/core-aam/blockquote-manual.html' target='_blank'>/core-aam/blockquote-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-16-0' class='subtest'><td>blockquote</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is <nil>" failed<br />
+<strong>Actual value:</strong> 'AXUnknown'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-17'><td><a href='http://www.w3c-test.org/core-aam/caption-manual.html' target='_blank'>/core-aam/caption-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-17-0' class='subtest'><td>caption</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-18'><td><a href='http://www.w3c-test.org/core-aam/code-manual.html' target='_blank'>/core-aam/code-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-18-0' class='subtest'><td>code</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
+<strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXSubrole is AXCodeStyleGroup" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-19'><td><a href='http://www.w3c-test.org/core-aam/combobox-value-calculation-manual.html' target='_blank'>/core-aam/combobox-value-calculation-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-19-0' class='subtest'><td>combobox value calculation</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property objectAttributes contains valuetext:Apple" failed<br />
+<strong>Actual value:</strong> '['margin-top:0px', 'id:test', 'haspopup:listbox', 'tag:div', 'display:block', 'explicit-name:true', 'margin-bottom:0px', 'text-align:start', 'xml-roles:combobox', 'margin-left:0px', 'margin-right:0px', 'text-indent:0px', 'formatting:block']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property objectAttributes contains valuetext:Apple" failed<br />
+<strong>Actual value:</strong> '['computed-role:combobox', 'xml-roles:combobox', 'readonly:false', 'haspopup:listbox', 'html-id:test', 'tag:div', 'toolkit:WebKitGtk']'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-20'><td><a href='http://www.w3c-test.org/core-aam/deletion-manual.html' target='_blank'>/core-aam/deletion-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-20-0' class='subtest'><td>deletion</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_CONTENT_DELETION" failed<br />
+<strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-21'><td><a href='http://www.w3c-test.org/core-aam/emphasis-manual.html' target='_blank'>/core-aam/emphasis-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-21-0' class='subtest'><td>emphasis</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
+<strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is AXEmphasisStyleGroup" failed<br />
+<strong>Actual value:</strong> 'AXApplicationGroup'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
+<strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXSubrole is AXEmphasisStyleGroup" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-22'><td><a href='http://www.w3c-test.org/core-aam/generic-manual.html' target='_blank'>/core-aam/generic-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-22-0' class='subtest'><td>generic</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_SECTION" failed<br />
+<strong>Actual value:</strong> 'ROLE_PARAGRAPH'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is <nil>" failed<br />
+<strong>Actual value:</strong> 'AXUnknown'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property role is ROLE_SECTION" failed<br />
+<strong>Actual value:</strong> 'ROLE_PARAGRAPH'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-23'><td><a href='http://www.w3c-test.org/core-aam/generic_roledescription_prohibited-manual.html' target='_blank'>/core-aam/generic_roledescription_prohibited-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-23-0' class='subtest'><td>generic roledescription prohibited</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property objectAttributes doesNotContain roledescription:foo" failed<br />
+<strong>Actual value:</strong> '['margin-top:16px', 'tag:p', 'display:block', 'margin-left:0px', 'text-align:start', 'id:test', 'xml-roles:generic', 'margin-bottom:16px', 'roledescription:foo', 'text-indent:0px', 'margin-right:0px', 'formatting:block']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXRoleDescription isNot foo" failed<br />
+<strong>Actual value:</strong> 'foo'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property objectAttributes doesNotContain roledescription:foo" failed<br />
+<strong>Actual value:</strong> '['roledescription:foo', 'computed-role:paragraph', 'xml-roles:generic', 'html-id:test', 'tag:p', 'toolkit:WebKitGtk']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXRoleDescription isNot foo" failed<br />
+<strong>Actual value:</strong> 'foo'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-24'><td><a href='http://www.w3c-test.org/core-aam/grid-level-not-supported-manual.html' target='_blank'>/core-aam/grid-level-not-supported-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-24-0' class='subtest'><td>grid level not supported</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property objectAttributes doesNotContain level:2" failed<br />
+<strong>Actual value:</strong> '['margin-top:0px', 'tag:div', 'display:block', 'level:2', 'id:test', 'xml-roles:grid', 'child-item-count:1', 'margin-bottom:0px', 'text-align:start', 'margin-left:0px', 'margin-right:0px', 'text-indent:0px']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property objectAttributes doesNotContain level:2" failed<br />
+<strong>Actual value:</strong> '['computed-role:grid', 'xml-roles:grid', 'readonly:false', 'level:2', 'html-id:test', 'tag:div', 'toolkit:WebKitGtk']'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-25'><td><a href='http://www.w3c-test.org/core-aam/group_as_child_of_listbox-manual.html' target='_blank'>/core-aam/group_as_child_of_listbox-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-25-0' class='subtest'><td>group as child of listbox</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXRole is AXGroup" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+ERROR: Object not found<br />
+; "property AXSubrole is AXApplicationGroup" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+ERROR: Object not found<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXSubrole is AXApplicationGroup" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-26'><td><a href='http://www.w3c-test.org/core-aam/heading-no-level-manual.html' target='_blank'>/core-aam/heading-no-level-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-26-0' class='subtest'><td>heading with no author-provided level</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-27'><td><a href='http://www.w3c-test.org/core-aam/insertion-manual.html' target='_blank'>/core-aam/insertion-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-27-0' class='subtest'><td>insertion</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
 <tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_CONTENT_INSERTION" failed<br />
 <strong>Actual value:</strong> 'ROLE_SECTION'<br />
 ;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>GC01:</td><td> assert_true: "property role is ROLE_CONTENT_INSERTION" failed<br />
-<strong>Actual value:</strong> 'ROLE_SECTION'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXRoleDescription is group" failed<br />
-<strong>Actual value:</strong> 'insertion'<br />
-;  expected true got false</td></tr>
 </table></td></tr>
-<tr class='test' id='test-file-10'><td><a href='http://www.w3c-test.org/core-aam/math_role_children_are_not_presentational-manual.html' target='_blank'>/core-aam/math_role_children_are_not_presentational-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-10-0' class='subtest'><td>Math role children are not presentational</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
-<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property accessible is true" failed<br />
-<strong>Actual value:</strong> 'false'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property accessible is true" failed<br />
+<tr class='test' id='test-file-28'><td><a href='http://www.w3c-test.org/core-aam/math_role_children_are_not_presentational-manual.html' target='_blank'>/core-aam/math_role_children_are_not_presentational-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-28-0' class='subtest'><td>Math role children are not presentational</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property accessible is true" failed<br />
 <strong>Actual value:</strong> 'false'<br />
 ;  expected true got false</td></tr>
 <tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property accessible is true" failed<br />
 <strong>Actual value:</strong> 'false'<br />
 ;  expected true got false</td></tr>
 </table></td></tr>
-<tr class='test' id='test-file-11'><td><a href='http://www.w3c-test.org/core-aam/menuitemcheckbox_child_of_group-manual.html' target='_blank'>/core-aam/menuitemcheckbox_child_of_group-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-11-0' class='subtest'><td>menuitemcheckbox child of group</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-12'><td><a href='http://www.w3c-test.org/core-aam/meter-manual.html' target='_blank'>/core-aam/meter-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-12-0' class='subtest'><td>meter</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td></tr>
-<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert<em>true: "property role is ROLE_LEVEL</em>BAR" failed<br />
+<tr class='test' id='test-file-29'><td><a href='http://www.w3c-test.org/core-aam/menuitemcheckbox_child_of_group-manual.html' target='_blank'>/core-aam/menuitemcheckbox_child_of_group-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-29-0' class='subtest'><td>menuitemcheckbox child of group</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is <nil>" failed<br />
+<strong>Actual value:</strong> 'AXUnknown'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-30'><td><a href='http://www.w3c-test.org/core-aam/meter-manual.html' target='_blank'>/core-aam/meter-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-30-0' class='subtest'><td>meter</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_LEVEL_BAR" failed<br />
 <strong>Actual value:</strong> 'ROLE_SECTION'<br />
 ; "property interfaces contains Value" failed<br />
 <strong>Actual value:</strong> '['Accessible', 'Collection', 'Component', 'EditableText', 'Hypertext', 'Hyperlink', 'Text']'<br />
 ;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is <nil>" failed<br />
-<strong>Actual value:</strong> 'AXMeter'<br />
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXRole is AXLevelIndicator" failed<br />
+<strong>Actual value:</strong> 'AXGroup'<br />
+; "property AXSubrole is <nil>" failed<br />
+<strong>Actual value:</strong> 'AXApplicationGroup'<br />
 ;  expected true got false</td></tr>
 <tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXSubrole is <nil>" failed<br />
 <strong>Actual value:</strong> 'AXMeter'<br />
 ;  expected true got false</td></tr>
 </table></td></tr>
-<tr class='test' id='test-file-13'><td><a href='http://www.w3c-test.org/core-aam/paragraph-manual.html' target='_blank'>/core-aam/paragraph-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-13-0' class='subtest'><td>paragraph</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
-<tr class='test' id='test-file-14'><td><a href='http://www.w3c-test.org/core-aam/subscript-manual.html' target='_blank'>/core-aam/subscript-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-14-0' class='subtest'><td>subscript</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-31'><td><a href='http://www.w3c-test.org/core-aam/paragraph-manual.html' target='_blank'>/core-aam/paragraph-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-31-0' class='subtest'><td>paragraph</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is <nil>" failed<br />
+<strong>Actual value:</strong> 'AXUnknown'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-32'><td><a href='http://www.w3c-test.org/core-aam/progressbar-no-min-or-max-manual.html' target='_blank'>/core-aam/progressbar-no-min-or-max-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-32-0' class='subtest'><td>progressbar no min or max</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXMinValue is 0" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+; "property AXMaxValue is 100" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-33'><td><a href='http://www.w3c-test.org/core-aam/rowgroup-no-name-from-contents-manual.html' target='_blank'>/core-aam/rowgroup-no-name-from-contents-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-33-0' class='subtest'><td>rowgroup no name from contents</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property name is " failed<br />
+<strong>Actual value:</strong> 'None'<br />
+ERROR: Object not found<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXDescription is " failed<br />
+<strong>Actual value:</strong> 'None'<br />
+ERROR: Object not found<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-34'><td><a href='http://www.w3c-test.org/core-aam/strong-manual.html' target='_blank'>/core-aam/strong-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-34-0' class='subtest'><td>strong</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
+<strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is AXStrongStyleGroup" failed<br />
+<strong>Actual value:</strong> 'AXApplicationGroup'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
+<strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK02:</td><td> assert_true: "property AXSubrole is AXStrongStyleGroup" failed<br />
+<strong>Actual value:</strong> 'None'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-35'><td><a href='http://www.w3c-test.org/core-aam/subscript-manual.html' target='_blank'>/core-aam/subscript-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-35-0' class='subtest'><td>subscript</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
 <tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_SUBSCRIPT" failed<br />
 <strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is AXSubscriptStyleGroup" failed<br />
+<strong>Actual value:</strong> 'AXApplicationGroup'<br />
 ;  expected true got false</td></tr>
 <tr class='message'><td class='ua'>GC01:</td><td> assert_true: "property role is ROLE_SUBSCRIPT" failed<br />
 <strong>Actual value:</strong> 'ROLE_SECTION'<br />
 ;  expected true got false</td></tr>
 <tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXSubrole is AXSubscriptStyleGroup" failed<br />
 <strong>Actual value:</strong> 'None'<br />
-; "property AXRoleDescription is group" failed<br />
-<strong>Actual value:</strong> 'subscript'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property role is ROLE_SUBSCRIPT" failed<br />
-<strong>Actual value:</strong> 'ROLE_SECTION'<br />
 ;  expected true got false</td></tr>
 </table></td></tr>
-<tr class='test' id='test-file-15'><td><a href='http://www.w3c-test.org/core-aam/superscript-manual.html' target='_blank'>/core-aam/superscript-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-15-0' class='subtest'><td>superscript</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-36'><td><a href='http://www.w3c-test.org/core-aam/superscript-manual.html' target='_blank'>/core-aam/superscript-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-36-0' class='subtest'><td>superscript</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
 <tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_SUPERSCRIPT" failed<br />
 <strong>Actual value:</strong> 'ROLE_SECTION'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is AXSuperscriptStyleGroup" failed<br />
+<strong>Actual value:</strong> 'AXApplicationGroup'<br />
 ;  expected true got false</td></tr>
 <tr class='message'><td class='ua'>GC01:</td><td> assert_true: "property role is ROLE_SUPERSCRIPT" failed<br />
 <strong>Actual value:</strong> 'ROLE_SECTION'<br />
 ;  expected true got false</td></tr>
 <tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXSubrole is AXSuperscriptStyleGroup" failed<br />
 <strong>Actual value:</strong> 'None'<br />
-; "property AXRoleDescription is group" failed<br />
-<strong>Actual value:</strong> 'superscript'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property role is ROLE_SUPERSCRIPT" failed<br />
-<strong>Actual value:</strong> 'ROLE_SECTION'<br />
 ;  expected true got false</td></tr>
 </table></td></tr>
-<tr class='test' id='test-file-16'><td><a href='http://www.w3c-test.org/core-aam/time-manual.html' target='_blank'>/core-aam/time-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
-<tr id='subtest-16-0' class='subtest'><td>time</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='test' id='test-file-37'><td><a href='http://www.w3c-test.org/core-aam/tablist-level-not-supported-manual.html' target='_blank'>/core-aam/tablist-level-not-supported-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-37-0' class='subtest'><td>tablist level not supported</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td></tr>
+<tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property objectAttributes doesNotContain level:2" failed<br />
+<strong>Actual value:</strong> '['margin-top:0px', 'id:test', 'level:2', 'tag:div', 'display:block', 'child-item-count:1', 'margin-bottom:0px', 'text-align:start', 'xml-roles:tablist', 'margin-left:0px', 'margin-right:0px', 'text-indent:0px', 'formatting:block']'<br />
+;  expected true got false</td></tr>
+<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property objectAttributes doesNotContain level:2" failed<br />
+<strong>Actual value:</strong> '['computed-role:tablist', 'xml-roles:tablist', 'level:2', 'html-id:test', 'tag:div', 'toolkit:WebKitGtk']'<br />
+;  expected true got false</td></tr>
+</table></td></tr>
+<tr class='test' id='test-file-38'><td><a href='http://www.w3c-test.org/core-aam/time-manual.html' target='_blank'>/core-aam/time-manual.html</a></td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td><td class='OK'>OK</td></tr>
+<tr id='subtest-38-0' class='subtest'><td>time</td><td class='FAIL'>FAIL</td><td class='FAIL'>FAIL</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td><td class='PASS'>PASS</td></tr>
 <tr class='messages'><td colspan='7'><table><tr class='message'><td class='ua'>FF01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
 <strong>Actual value:</strong> 'ROLE_SECTION'<br />
 ;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>GC01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
-<strong>Actual value:</strong> 'ROLE_SECTION'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>GC02:</td><td> assert_true: "property AXSubrole is AXTimeGroup" failed<br />
-<strong>Actual value:</strong> 'None'<br />
-; "property AXRoleDescription is group" failed<br />
-<strong>Actual value:</strong> 'time'<br />
-;  expected true got false</td></tr>
-<tr class='message'><td class='ua'>WK01:</td><td> assert_true: "property role is ROLE_STATIC" failed<br />
-<strong>Actual value:</strong> 'ROLE_SECTION'<br />
+<tr class='message'><td class='ua'>FF02:</td><td> assert_true: "property AXSubrole is AXTimeGroup" failed<br />
+<strong>Actual value:</strong> 'AXApplicationGroup'<br />
 ;  expected true got false</td></tr>
 </table></td></tr>
 
