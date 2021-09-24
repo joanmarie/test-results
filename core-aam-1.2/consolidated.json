@@ -8,6 +8,273 @@
     "WK02"
   ],
   "results": {
+    "/core-aam/aria-expanded_not_supported_on_alert.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on alert": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230609)"
+          },
+          "totals": {
+            "FAIL": 3,
+            "PASS": 3
+          }
+        }
+      }
+    },
+    "/core-aam/aria-expanded_not_supported_on_banner.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on banner": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230609)"
+          },
+          "totals": {
+            "FAIL": 3,
+            "PASS": 3
+          }
+        }
+      }
+    },
+    "/core-aam/aria-expanded_not_supported_on_dialog.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on dialog": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230609)"
+          },
+          "totals": {
+            "FAIL": 3,
+            "PASS": 3
+          }
+        }
+      }
+    },
+    "/core-aam/aria-expanded_not_supported_on_feed.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on feed": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230609)"
+          },
+          "totals": {
+            "FAIL": 3,
+            "PASS": 3
+          }
+        }
+      }
+    },
+    "/core-aam/aria-expanded_not_supported_on_form.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on form": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230609)"
+          },
+          "totals": {
+            "FAIL": 3,
+            "PASS": 3
+          }
+        }
+      }
+    },
+    "/core-aam/aria-expanded_not_supported_on_group.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on group": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1726354)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230609)"
+          },
+          "totals": {
+            "FAIL": 3,
+            "PASS": 3
+          }
+        }
+      }
+    },
+    "/core-aam/aria-errormessage_aria-invalid_false-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-errormessage": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732025)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230611)"
+          },
+          "totals": {
+            "FAIL": 2,
+            "PASS": 4
+          }
+        },
+        "aria-errormessage 1": {
+          "stNum": 1,
+          "byUA": {
+            "FF01": "FAIL",
+            "GC01": "PASS",
+            "WK01": "FAIL"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732025)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230611)"
+          },
+          "totals": {
+            "FAIL": 2,
+            "PASS": 1
+          }
+        }
+      }
+    },
     "/core-aam/aria-expanded_true_on_application-manual.html": {
       "byUA": {
         "FF01": "OK",
@@ -70,6 +337,99 @@
         }
       }
     },
+    "/core-aam/aria-expanded_true_on_menuitem-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on menuitem": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
+            "WK02": "PASS"
+          },
+          "UAmessage": {},
+          "totals": {
+            "PASS": 6
+          }
+        }
+      }
+    },
+    "/core-aam/aria-expanded_true_on_menuitemcheckbox-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on menuitemcheckbox": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
+            "WK02": "PASS"
+          },
+          "UAmessage": {},
+          "totals": {
+            "PASS": 6
+          }
+        }
+      }
+    },
+    "/core-aam/aria-expanded_true_on_menuitemradio-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "aria-expanded=true on menuitemradio": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
+            "WK02": "PASS"
+          },
+          "UAmessage": {},
+          "totals": {
+            "PASS": 6
+          }
+        }
+      }
+    },
     "/core-aam/aria-expanded_true_on_switch-manual.html": {
       "byUA": {
         "FF01": "OK",
@@ -101,7 +461,7 @@
         }
       }
     },
-    "/core-aam/aria-posinset_and_aria-setsize_on_row-manual.html": {
+    "/core-aam/aria-posinset_and_aria-setsize_on_treegrid_row-manual.html": {
       "byUA": {
         "FF01": "OK",
         "FF02": "OK",
@@ -115,22 +475,23 @@
         "OK": 6
       },
       "subtests": {
-        "aria-posinset and aria-setsize on row": {
+        "aria-posinset and aria-setsize on treegrid row": {
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "FF02": "PASS",
+            "FF02": "FAIL",
             "GC01": "PASS",
             "GC02": "FAIL",
             "WK01": "PASS",
             "WK02": "PASS"
           },
           "UAmessage": {
-            "GC02": "assert_true: \"property AXARIAPosInSet is 2\" failed   \n**Actual value:** '0'  \n; \"property AXARIASetSize is 100\" failed   \n**Actual value:** '0'  \n;  expected true got false"
+            "FF02": "Firefox on macOS fails to expose aria-posinset and aria-setsize for all roles; not just treegrid row.",
+            "GC02": "[BUG](https://bugs.chromium.org/p/chromium/issues/detail?id=1234710), [Pending ARIA issue](https://github.com/w3c/aria/issues/1602)"
           },
           "totals": {
-            "PASS": 5,
-            "FAIL": 1
+            "PASS": 4,
+            "FAIL": 2
           }
         }
       }
@@ -166,6 +527,40 @@
         }
       }
     },
+    "/core-aam/aria-valuetext_on_spinbutton-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "spinbutton": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF02": "Firefox exposes aria-valuetext via AXValue rather than AXValueDescription. This is the exposure for all roles; not specific to this 1.2 change."
+          },
+          "totals": {
+            "PASS": 5,
+            "FAIL": 1
+          }
+        }
+      }
+    },
     "/core-aam/blockquote-manual.html": {
       "byUA": {
         "FF01": "OK",
@@ -184,15 +579,18 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "FF02": "PASS",
+            "FF02": "FAIL",
             "GC01": "PASS",
             "GC02": "PASS",
             "WK01": "PASS",
             "WK02": "PASS"
           },
-          "UAmessage": {},
+          "UAmessage": {
+            "FF02": "Firefox never exposes an empty/nil subrole. In those cases it exposes AXUnknown. That is not unique or specific to this ARIA 1.2 role."
+          },
           "totals": {
-            "PASS": 6
+            "PASS": 5,
+            "FAIL": 1
           }
         }
       }
@@ -228,6 +626,76 @@
         }
       }
     },
+    "/core-aam/code-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "code": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "FAIL"
+          },
+          "UAmessage": {
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=203257)",
+            "WK02": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=203257)"
+          },
+          "totals": {
+            "PASS": 4,
+            "FAIL": 2
+          }
+        }
+      }
+    },
+    "/core-aam/combobox-value-calculation-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "combobox value calculation": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732284)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230685)"
+          },
+          "totals": {
+            "FAIL": 2,
+            "PASS": 4
+          }
+        }
+      }
+    },
     "/core-aam/deletion-manual.html": {
       "byUA": {
         "FF01": "OK",
@@ -245,21 +713,161 @@
         "deletion": {
           "stNum": 0,
           "byUA": {
-            "FF01": "FAIL",
+            "FF01": "PASS",
             "FF02": "PASS",
-            "GC01": "FAIL",
-            "GC02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
             "WK01": "PASS",
             "WK02": "PASS"
           },
+          "UAmessage": {},
+          "totals": {
+            "PASS": 6
+          }
+        }
+      }
+    },
+    "/core-aam/emphasis-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "emphasis": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "FAIL"
+          },
           "UAmessage": {
-            "FF01": "assert_true: \"property role is ROLE\\_CONTENT\\_DELETION\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC01": "assert_true: \"property role is ROLE\\_CONTENT\\_DELETION\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC02": "assert_true: \"property AXRoleDescription is group\" failed   \n**Actual value:** 'deletion'  \n;  expected true got false"
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=203257)",
+            "WK02": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=203257)"
+          },
+          "totals": {
+            "FAIL": 4,
+            "PASS": 2
+          }
+        }
+      }
+    },
+    "/core-aam/generic-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "generic": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=203257)"
           },
           "totals": {
             "FAIL": 3,
             "PASS": 3
+          }
+        }
+      }
+    },
+    "/core-aam/generic_roledescription_prohibited-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "generic roledescription prohibited": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "FAIL"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732312)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732312)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=174248)",
+            "WK02": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=174248)"
+          },
+          "totals": {
+            "FAIL": 4,
+            "PASS": 2
+          }
+        }
+      }
+    },
+    "/core-aam/grid-level-not-supported-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "grid level not supported": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732289)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230687)"
+          },
+          "totals": {
+            "FAIL": 2,
+            "PASS": 4
           }
         }
       }
@@ -282,18 +890,49 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "FF02": "PASS",
+            "FF02": "FAIL",
             "GC01": "PASS",
-            "GC02": "FAIL",
+            "GC02": "PASS",
             "WK01": "PASS",
             "WK02": "PASS"
           },
           "UAmessage": {
-            "GC02": "assert_true: \"property AXSubrole is AXApplicationGroup\" failed   \n**Actual value:** 'None'  \n;  expected true got false"
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732320)"
           },
           "totals": {
             "PASS": 5,
             "FAIL": 1
+          }
+        }
+      }
+    },
+    "/core-aam/heading-no-level-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "heading with no author-provided level": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
+            "WK02": "PASS"
+          },
+          "UAmessage": {},
+          "totals": {
+            "PASS": 6
           }
         }
       }
@@ -315,21 +954,16 @@
         "insertion": {
           "stNum": 0,
           "byUA": {
-            "FF01": "FAIL",
+            "FF01": "PASS",
             "FF02": "PASS",
-            "GC01": "FAIL",
-            "GC02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
             "WK01": "PASS",
             "WK02": "PASS"
           },
-          "UAmessage": {
-            "FF01": "assert_true: \"property role is ROLE\\_CONTENT\\_INSERTION\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC01": "assert_true: \"property role is ROLE\\_CONTENT\\_INSERTION\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC02": "assert_true: \"property AXRoleDescription is group\" failed   \n**Actual value:** 'insertion'  \n;  expected true got false"
-          },
+          "UAmessage": {},
           "totals": {
-            "FAIL": 3,
-            "PASS": 3
+            "PASS": 6
           }
         }
       }
@@ -352,20 +986,19 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "FF02": "FAIL",
+            "FF02": "PASS",
             "GC01": "PASS",
             "GC02": "PASS",
             "WK01": "FAIL",
             "WK02": "FAIL"
           },
           "UAmessage": {
-            "FF02": "assert_true: \"property accessible is true\" failed   \n**Actual value:** 'false'  \n;  expected true got false",
-            "WK01": "assert_true: \"property accessible is true\" failed   \n**Actual value:** 'false'  \n;  expected true got false",
-            "WK02": "assert_true: \"property accessible is true\" failed   \n**Actual value:** 'false'  \n;  expected true got false"
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=196756)",
+            "WK02": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=196756)"
           },
           "totals": {
-            "PASS": 3,
-            "FAIL": 3
+            "PASS": 4,
+            "FAIL": 2
           }
         }
       }
@@ -388,15 +1021,18 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "FF02": "PASS",
+            "FF02": "FAIL",
             "GC01": "PASS",
             "GC02": "PASS",
             "WK01": "PASS",
             "WK02": "PASS"
           },
-          "UAmessage": {},
+          "UAmessage": {
+            "FF02": "Firefox never exposes an empty/nil subrole. In those cases it exposes AXUnknown. That is not unique or specific to this ARIA 1.2 change."
+          },
           "totals": {
-            "PASS": 6
+            "PASS": 5,
+            "FAIL": 1
           }
         }
       }
@@ -418,21 +1054,20 @@
         "meter": {
           "stNum": 0,
           "byUA": {
-            "FF01": "FAIL",
+            "FF01": "PASS",
             "FF02": "FAIL",
             "GC01": "PASS",
             "GC02": "PASS",
             "WK01": "PASS",
-            "WK02": "FAIL"
+            "WK02": "PASS"
           },
           "UAmessage": {
-            "FF01": "assert_true: \"property role is ROLE\\_LEVEL_BAR\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n; \"property interfaces contains Value\" failed   \n**Actual value:** '['Accessible', 'Collection', 'Component', 'EditableText', 'Hypertext', 'Hyperlink', 'Text']'  \n;  expected true got false",
-            "FF02": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXMeter'  \n;  expected true got false",
-            "WK02": "assert_true: \"property AXSubrole is <nil>\" failed   \n**Actual value:** 'AXMeter'  \n;  expected true got false"
+            "FF02": "Firefox never exposes an empty/nil subrole. In those cases it exposes AXUnknown. That is not unique or specific to this ARIA 1.2 role.",
+            "WK02": "Safari exposes 'AXMeter' as the subrole rather than &lt;nil&gt;, the spec needs to be updated."
           },
           "totals": {
-            "FAIL": 3,
-            "PASS": 3
+            "PASS": 5,
+            "FAIL": 1
           }
         }
       }
@@ -455,15 +1090,124 @@
           "stNum": 0,
           "byUA": {
             "FF01": "PASS",
-            "FF02": "PASS",
+            "FF02": "FAIL",
             "GC01": "PASS",
             "GC02": "PASS",
             "WK01": "PASS",
             "WK02": "PASS"
           },
-          "UAmessage": {},
+          "UAmessage": {
+            "FF02": "Firefox never exposes an empty/nil subrole. In those cases it exposes AXUnknown. That is not unique or specific to this ARIA 1.2 role."
+          },
           "totals": {
-            "PASS": 6
+            "PASS": 5,
+            "FAIL": 1
+          }
+        }
+      }
+    },
+    "/core-aam/progressbar-no-min-or-max-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "progressbar no min or max": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF02": "Firefox does not support AXMinValue or AXMaxValue even when its explicitly provided by the author. This is not new to the 1.2 change."
+          },
+          "totals": {
+            "PASS": 5,
+            "FAIL": 1
+          }
+        }
+      }
+    },
+    "/core-aam/rowgroup-no-name-from-contents-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "rowgroup no name from contents": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "PASS",
+            "FF02": "PASS",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "NOTRUN",
+            "WK02": "NOTRUN"
+          },
+          "UAmessage": {
+            "WK01": "WebKit does not expose rowgroups so the element being tested is not in the accessibility tree",
+            "WK02": "WebKit does not expose rowgroups so the element being tested is not in the accessibility tree"
+          },
+          "totals": {
+            "PASS": 4,
+            "NOTRUN": 2
+          }
+        }
+      }
+    },
+    "/core-aam/strong-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "strong": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "FAIL",
+            "WK02": "FAIL"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=203257)",
+            "WK02": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=203257)"
+          },
+          "totals": {
+            "FAIL": 4,
+            "PASS": 2
           }
         }
       }
@@ -479,28 +1223,26 @@
       },
       "UAmessage": {},
       "totals": {
-        "OK": 7
+        "OK": 6
       },
       "subtests": {
         "subscript": {
           "stNum": 0,
           "byUA": {
             "FF01": "FAIL",
-            "FF02": "PASS",
-            "GC01": "FAIL",
-            "GC02": "FAIL",
-            "WK01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
             "WK02": "PASS"
           },
           "UAmessage": {
-            "FF01": "assert_true: \"property role is ROLE\\_SUBSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC01": "assert_true: \"property role is ROLE\\_SUBSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC02": "assert_true: \"property AXSubrole is AXSubscriptStyleGroup\" failed   \n**Actual value:** 'None'  \n; \"property AXRoleDescription is group\" failed   \n**Actual value:** 'subscript'  \n;  expected true got false",
-            "WK01": "assert_true: \"property role is ROLE\\_SUBSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732280)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732280)"
           },
           "totals": {
-            "FAIL": 4,
-            "PASS": 3
+            "FAIL": 2,
+            "PASS": 4
           }
         }
       }
@@ -516,28 +1258,61 @@
       },
       "UAmessage": {},
       "totals": {
-        "OK": 7
+        "OK": 6
       },
       "subtests": {
         "superscript": {
           "stNum": 0,
           "byUA": {
             "FF01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
+            "WK02": "PASS"
+          },
+          "UAmessage": {
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732280)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732280)"
+          },
+          "totals": {
+            "FAIL": 2,
+            "PASS": 4
+          }
+        }
+      }
+    },
+    "/core-aam/tablist-level-not-supported-manual.html": {
+      "byUA": {
+        "FF01": "OK",
+        "FF02": "OK",
+        "GC01": "OK",
+        "GC02": "OK",
+        "WK01": "OK",
+        "WK02": "OK"
+      },
+      "UAmessage": {},
+      "totals": {
+        "OK": 6
+      },
+      "subtests": {
+        "tablist level not supported": {
+          "stNum": 0,
+          "byUA": {
+            "FF01": "FAIL",
             "FF02": "PASS",
-            "GC01": "FAIL",
-            "GC02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
             "WK01": "FAIL",
             "WK02": "PASS"
           },
           "UAmessage": {
-            "FF01": "assert_true: \"property role is ROLE\\_SUPERSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC01": "assert_true: \"property role is ROLE\\_SUPERSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC02": "assert_true: \"property AXSubrole is AXSuperscriptStyleGroup\" failed   \n**Actual value:** 'None'  \n; \"property AXRoleDescription is group\" failed   \n**Actual value:** 'superscript'  \n;  expected true got false",
-            "WK01": "assert_true: \"property role is ROLE\\_SUPERSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732289)",
+            "WK01": "[BUG](https://bugs.webkit.org/show_bug.cgi?id=230687)"
           },
           "totals": {
-            "FAIL": 4,
-            "PASS": 3
+            "FAIL": 2,
+            "PASS": 4
           }
         }
       }
@@ -553,28 +1328,26 @@
       },
       "UAmessage": {},
       "totals": {
-        "OK": 7
+        "OK": 6
       },
       "subtests": {
         "time": {
           "stNum": 0,
           "byUA": {
             "FF01": "FAIL",
-            "FF02": "PASS",
-            "GC01": "FAIL",
-            "GC02": "FAIL",
-            "WK01": "FAIL",
+            "FF02": "FAIL",
+            "GC01": "PASS",
+            "GC02": "PASS",
+            "WK01": "PASS",
             "WK02": "PASS"
           },
           "UAmessage": {
-            "FF01": "assert_true: \"property role is ROLE\\_STATIC\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC01": "assert_true: \"property role is ROLE\\_STATIC\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false",
-            "GC02": "assert_true: \"property AXSubrole is AXTimeGroup\" failed   \n**Actual value:** 'None'  \n; \"property AXRoleDescription is group\" failed   \n**Actual value:** 'time'  \n;  expected true got false",
-            "WK01": "assert_true: \"property role is ROLE\\_STATIC\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+            "FF01": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)",
+            "FF02": "[BUG](https://bugzilla.mozilla.org/show_bug.cgi?id=1732306)"
           },
           "totals": {
-            "FAIL": 4,
-            "PASS": 3
+            "FAIL": 2,
+            "PASS": 4
           }
         }
       }

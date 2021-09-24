@@ -1,6 +1,78 @@
 {
   "results": [
     {
+      "test": "/core-aam/aria-expanded_not_supported_on_alert.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on alert",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_banner.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on banner",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_dialog.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on dialog",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_feed.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on feed",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_form.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on form",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_not_supported_on_group.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on group",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/alert-manual.html",
       "subtests": [
         {
@@ -70,8 +142,8 @@
       "subtests": [
         {
           "name": "aria-autocomplete=both",
-          "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains autocomplete:both\" failed   \n**Actual value:** '['id:test', 'xml-roles:combobox', 'tag:div', 'display:block']'  \n; \"property states contains STATE_SUPPORTS_AUTOCOMPLETION\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -82,8 +154,8 @@
       "subtests": [
         {
           "name": "aria-autocomplete=inline",
-          "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains autocomplete:inline\" failed   \n**Actual value:** '['id:test', 'xml-roles:combobox', 'tag:div', 'display:block']'  \n; \"property states contains STATE_SUPPORTS_AUTOCOMPLETION\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -94,8 +166,8 @@
       "subtests": [
         {
           "name": "aria-autocomplete=list",
-          "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains autocomplete:list\" failed   \n**Actual value:** '['id:test', 'xml-roles:combobox', 'tag:div', 'display:block']'  \n; \"property states contains STATE_SUPPORTS_AUTOCOMPLETION\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -220,15 +292,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-colcount_new-manual.html",
+      "test": "/core-aam/aria-colcount-manual.html",
       "subtests": [
         {
-          "name": "aria-colcount NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"result atk_table_get_n_columns() is 3\" failed   \n**Actual value:** '1'  \n;  expected true got false"
+          "name": "aria-colcount",
+          "status": "PASS",
+          "message": null
         },
         {
-          "name": "aria-colcount NEW 1",
+          "name": "aria-colcount 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API ATK expected false got true"
         }
@@ -237,24 +309,24 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-colindex_new-manual.html",
+      "test": "/core-aam/aria-colindex-manual.html",
       "subtests": [
         {
-          "name": "aria-colindex NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"result atk_table_cell_get_position() contains column=2\" failed   \n**Actual value:** '(1, row=0, column=0)'  \n;  expected true got false"
+          "name": "aria-colindex",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-colspan_new-manual.html",
+      "test": "/core-aam/aria-colspan-manual.html",
       "subtests": [
         {
-          "name": "aria-colspan NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"result atk_table_cell_get_row_column_span() contains column_span=3\" failed   \n**Actual value:** '(row=0, column=0, row\\_span=1, column\\_span=1)'  \n;  expected true got false"
+          "name": "aria-colspan",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -282,37 +354,37 @@
       "subtests": [
         {
           "name": "aria-current value changes",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:state-changed:active\" failed   \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         },
         {
           "name": "aria-current value changes 1",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:state-changed:active\" failed   \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-current_with_non-false_allowed_value_new-manual.html",
+      "test": "/core-aam/aria-current_with_non-false_allowed_value-manual.html",
       "subtests": [
         {
-          "name": "aria-current with non-false allowed value NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property states contains STATE_ACTIVE\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "name": "aria-current with non-false allowed value",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-current_with_unrecognized_value_new-manual.html",
+      "test": "/core-aam/aria-current_with_unrecognized_value-manual.html",
       "subtests": [
         {
-          "name": "aria-current with unrecognized value NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property states contains STATE_ACTIVE\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "name": "aria-current with unrecognized value",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -336,15 +408,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-details_new-manual.html",
+      "test": "/core-aam/aria-details-manual.html",
       "subtests": [
         {
-          "name": "aria-details NEW",
+          "name": "aria-details",
           "status": "PASS",
           "message": null
         },
         {
-          "name": "aria-details NEW 1",
+          "name": "aria-details 1",
           "status": "PASS",
           "message": null
         }
@@ -386,8 +458,8 @@
       "subtests": [
         {
           "name": "aria-disabled value changes",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:state-changed:enabled\" failed   \n; \"event detail1 is 0\" failed   \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -478,7 +550,24 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-errormessage-manual.html",
+      "test": "/core-aam/aria-errormessage_aria-invalid_false-manual.html",
+      "subtests": [
+        {
+          "name": "aria-errormessage",
+          "status": "PASS",
+          "message": null
+        },
+        {
+          "name": "aria-errormessage 1",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-errormessage_aria-invalid_true-manual.html",
       "subtests": [
         {
           "name": "aria-errormessage",
@@ -543,6 +632,42 @@
       "message": null
     },
     {
+      "test": "/core-aam/aria-expanded_true_on_menuitem-manual.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on menuitem",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_true_on_menuitemcheckbox-manual.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on menuitemcheckbox",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/aria-expanded_true_on_menuitemradio-manual.html",
+      "subtests": [
+        {
+          "name": "aria-expanded=true on menuitemradio",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/aria-expanded_true_on_switch-manual.html",
       "subtests": [
         {
@@ -559,13 +684,13 @@
       "subtests": [
         {
           "name": "aria-expanded value changes",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:state-changed:expanded\" failed   \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         },
         {
           "name": "aria-expanded value changes 1",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:state-changed:expanded\" failed   \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -625,10 +750,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-haspopup_dialog_new-manual.html",
+      "test": "/core-aam/aria-haspopup_dialog-manual.html",
       "subtests": [
         {
-          "name": "aria-haspopup=dialog NEW",
+          "name": "aria-haspopup=dialog",
           "status": "PASS",
           "message": null
         }
@@ -649,7 +774,7 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-haspopup_listbox_new-manual.html",
+      "test": "/core-aam/aria-haspopup_listbox-manual.html",
       "subtests": [
         {
           "name": "aria-haspopup=listbox NEW",
@@ -661,10 +786,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-haspopup_menu_new-manual.html",
+      "test": "/core-aam/aria-haspopup_menu-manual.html",
       "subtests": [
         {
-          "name": "aria-haspopup=menu NEW",
+          "name": "aria-haspopup=menu",
           "status": "PASS",
           "message": null
         }
@@ -673,10 +798,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-haspopup_tree_new-manual.html",
+      "test": "/core-aam/aria-haspopup_tree-manual.html",
       "subtests": [
         {
-          "name": "aria-haspopup=tree NEW",
+          "name": "aria-haspopup=tree",
           "status": "PASS",
           "message": null
         }
@@ -690,7 +815,7 @@
         {
           "name": "aria-haspopup=true",
           "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains haspopup:true\" failed   \n**Actual value:** '['id:test', 'haspopup:menu', 'setsize:0', 'xml-roles:group', 'tag:div', 'display:block']'  \n;  expected true got false"
+          "message": "assert_true: \"property objectAttributes contains haspopup:true\" failed   \n**Actual value:** '['text-align:left', 'id:test', 'haspopup:menu', 'setsize:0', 'xml-roles:group', 'tag:div', 'display:block']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -709,29 +834,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-hidden_true_when_element_is_focused_or_fires_event_new-manual.html",
+      "test": "/core-aam/aria-hidden_true_when_element_is_focused_or_fires_event-manual.html",
       "subtests": [
         {
-          "name": "aria-hidden=true when element is focused or fires event NEW",
+          "name": "aria-hidden=true when element is focused or fires event",
           "status": "PASS",
           "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/aria-hidden_value_changes-manual.html",
-      "subtests": [
-        {
-          "name": "aria-hidden value changes",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:property-change\" failed   \n;  expected true got false"
-        },
-        {
-          "name": "aria-hidden value changes 1",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:property-change\" failed   \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -754,8 +862,8 @@
       "subtests": [
         {
           "name": "aria-invalid=grammar",
-          "status": "FAIL",
-          "message": "assert_true: \"property textAttributes contains invalid:grammar\" failed   \n**Actual value:** '['size:12pt', 'bg-color:255,255,255', 'language:en-US', 'underline:error', 'family-name:Times New Roman', 'fg-color:0,0,0']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -766,8 +874,8 @@
       "subtests": [
         {
           "name": "aria-invalid=spelling",
-          "status": "FAIL",
-          "message": "assert_true: \"property textAttributes contains invalid:spelling\" failed   \n**Actual value:** '['size:12pt', 'bg-color:255,255,255', 'language:en-US', 'underline:error', 'family-name:Times New Roman', 'fg-color:0,0,0']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -778,8 +886,8 @@
       "subtests": [
         {
           "name": "aria-invalid=true",
-          "status": "FAIL",
-          "message": "assert_true: \"property textAttributes contains invalid:true\" failed   \n**Actual value:** '['size:12pt', 'bg-color:255,255,255', 'language:en-US', 'underline:error', 'family-name:Times New Roman', 'fg-color:0,0,0']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -803,22 +911,22 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-invalid_with_unrecognized_value_new-manual.html",
+      "test": "/core-aam/aria-invalid_with_unrecognized_value-manual.html",
       "subtests": [
         {
-          "name": "aria-invalid with unrecognized value NEW",
+          "name": "aria-invalid with unrecognized value",
           "status": "FAIL",
-          "message": "assert_true: \"property textAttributes contains invalid:true\" failed   \n**Actual value:** '['size:12pt', 'bg-color:255,255,255', 'language:en-US', 'underline:error', 'family-name:Times New Roman', 'fg-color:0,0,0']'  \n;  expected true got false"
+          "message": "assert_true: \"property textAttributes contains invalid:true\" failed   \n**Actual value:** '['invalid:foo', 'bg-color:255,255,255', 'size:15pt', 'underline:error', 'language:en-US', 'direction:lr', 'family-name:DejaVu Sans']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-keyshortcuts_new-manual.html",
+      "test": "/core-aam/aria-keyshortcuts-manual.html",
       "subtests": [
         {
-          "name": "aria-keyshortcuts NEW",
+          "name": "aria-keyshortcuts",
           "status": "PASS",
           "message": null
         }
@@ -931,15 +1039,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-modal_false_new-manual.html",
+      "test": "/core-aam/aria-modal_false-manual.html",
       "subtests": [
         {
-          "name": "aria-modal=false NEW",
+          "name": "aria-modal=false",
           "status": "PASS",
           "message": null
         },
         {
-          "name": "aria-modal=false NEW 1",
+          "name": "aria-modal=false 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API ATK expected false got true"
         }
@@ -948,15 +1056,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-modal_true_new-manual.html",
+      "test": "/core-aam/aria-modal_true-manual.html",
       "subtests": [
         {
-          "name": "aria-modal=true NEW",
+          "name": "aria-modal=true",
           "status": "PASS",
           "message": null
         },
         {
-          "name": "aria-modal=true NEW 1",
+          "name": "aria-modal=true 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API ATK expected false got true"
         }
@@ -1025,12 +1133,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-orientation_undefined_new-manual.html",
+      "test": "/core-aam/aria-orientation_undefined-manual.html",
       "subtests": [
         {
-          "name": "aria-orientation=undefined NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property states doesNotContain STATE_VERTICAL\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VERTICAL', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "name": "aria-orientation=undefined",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -1054,29 +1162,29 @@
         {
           "name": "aria-owns may need manual verification",
           "status": "FAIL",
-          "message": "assert_true: \"relation RELATION_NODE_PARENT_OF is [owned1,owned2]\" failed   \n**Actual value:** '[]'  \n;  expected true got false"
+          "message": "assert_true: \"relation RELATION\\_NODE_PARENT\\_OF is [owned1,owned2]\" failed   \n**Actual value:** '[]'  \n;  expected true got false"
         },
         {
           "name": "aria-owns may need manual verification 1",
           "status": "FAIL",
-          "message": "assert_true: \"relation RELATION_NODE_CHILD_OF is [test]\" failed   \n**Actual value:** '[]'  \n;  expected true got false"
+          "message": "assert_true: \"relation RELATION\\_NODE_CHILD_OF is [test]\" failed   \n**Actual value:** '[]'  \n;  expected true got false"
         },
         {
           "name": "aria-owns may need manual verification 2",
           "status": "FAIL",
-          "message": "assert_true: \"relation RELATION_NODE_CHILD_OF is [test]\" failed   \n**Actual value:** '[]'  \n;  expected true got false"
+          "message": "assert_true: \"relation RELATION\\_NODE_CHILD_OF is [test]\" failed   \n**Actual value:** '[]'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/aria-placeholder_new-manual.html",
+      "test": "/core-aam/aria-placeholder-manual.html",
       "subtests": [
         {
-          "name": "aria-placeholder NEW",
+          "name": "aria-placeholder",
           "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains placeholder-text:hello world\" failed   \n**Actual value:** '['text-model:a1', 'id:test', 'explicit-name:true', 'xml-roles:textbox', 'tag:div', 'display:block']'  \n;  expected true got false"
+          "message": "assert_true: \"property objectAttributes contains placeholder-text:hello world\" failed   \n**Actual value:** '['text-model:a1', 'text-align:left', 'id:test', 'explicit-name:true', 'xml-roles:textbox', 'tag:div', 'display:block']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1095,10 +1203,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-posinset_and_aria-setsize_on_row-manual.html",
+      "test": "/core-aam/aria-posinset_and_aria-setsize_on_treegrid_row-manual.html",
       "subtests": [
         {
-          "name": "aria-posinset and aria-setsize on row",
+          "name": "aria-posinset and aria-setsize on treegrid row",
           "status": "PASS",
           "message": null
         }
@@ -1135,8 +1243,8 @@
       "subtests": [
         {
           "name": "aria-pressed=true",
-          "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes doesNotContain checkable:true\" failed   \n**Actual value:** '['id:test', 'checkable:true', 'xml-roles:button', 'tag:div', 'display:block']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -1172,12 +1280,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-readonly_is_unspecified_on_gridcell_new-manual.html",
+      "test": "/core-aam/aria-readonly_is_unspecified_on_gridcell-manual.html",
       "subtests": [
         {
-          "name": "aria-readonly is unspecified on gridcell NEW",
-          "status": "PASS",
-          "message": null
+          "name": "aria-readonly is unspecified on gridcell",
+          "status": "FAIL",
+          "message": "assert_true: \"property states contains STATE_READ_ONLY\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1229,13 +1337,13 @@
       "subtests": [
         {
           "name": "aria-readonly value changes",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         },
         {
           "name": "aria-readonly value changes 1",
-          "status": "FAIL",
-          "message": "assert_true: \"event type is object:state-changed:read-only\" failed   \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -1300,10 +1408,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-roledescription_is_empty_or_whitespace_characters_new-manual.html",
+      "test": "/core-aam/aria-roledescription-manual.html",
       "subtests": [
         {
-          "name": "aria-roledescription is empty or whitespace characters NEW",
+          "name": "aria-roledescription",
           "status": "PASS",
           "message": null
         }
@@ -1312,27 +1420,21 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-roledescription_new-manual.html",
+      "test": "/core-aam/aria-roledescription_is_empty_or_whitespace_characters-manual.html",
+      "subtests": [],
+      "status": "ERROR",
+      "message": "done() was called without first defining any tests"
+    },
+    {
+      "test": "/core-aam/aria-rowcount-manual.html",
       "subtests": [
         {
-          "name": "aria-roledescription NEW",
+          "name": "aria-rowcount",
           "status": "PASS",
           "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/aria-rowcount_new-manual.html",
-      "subtests": [
-        {
-          "name": "aria-rowcount NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"result atk_table_get_n_rows() is 3\" failed   \n**Actual value:** '1'  \n;  expected true got false"
         },
         {
-          "name": "aria-rowcount NEW 1",
+          "name": "aria-rowcount 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API ATK expected false got true"
         }
@@ -1341,15 +1443,15 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-rowindex_new-manual.html",
+      "test": "/core-aam/aria-rowindex-manual.html",
       "subtests": [
         {
-          "name": "aria-rowindex NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"result atk_table_cell_get_position() contains row=2\" failed   \n**Actual value:** '(1, row=0, column=0)'  \n;  expected true got false"
+          "name": "aria-rowindex",
+          "status": "PASS",
+          "message": null
         },
         {
-          "name": "aria-rowindex NEW 1",
+          "name": "aria-rowindex 1",
           "status": "FAIL",
           "message": "assert_false: NOTRUN: No assertion for API ATK expected false got true"
         }
@@ -1358,12 +1460,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-rowspan_new-manual.html",
+      "test": "/core-aam/aria-rowspan-manual.html",
       "subtests": [
         {
-          "name": "aria-rowspan NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"result atk_table_cell_get_row_column_span() contains row_span=2\" failed   \n**Actual value:** '(row=0, column=0, row\\_span=1, column\\_span=1)'  \n;  expected true got false"
+          "name": "aria-rowspan",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -1394,12 +1496,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/aria-setsize_-1_new-manual.html",
+      "test": "/core-aam/aria-setsize_-1-manual.html",
       "subtests": [
         {
-          "name": "aria-setsize=-1 NEW",
+          "name": "aria-setsize=-1",
           "status": "FAIL",
-          "message": "assert_true: \"property states contains STATE_INDETERMINATE\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "message": "assert_true: \"property objectAttributes contains setsize:2\" failed   \n**Actual value:** '['text-align:left', 'id:test', 'posinset:1', 'setsize:-1', 'level:1', 'xml-roles:listitem', 'tag:div', 'display:block']'  \n; \"property states contains STATE_INDETERMINATE\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1447,7 +1549,7 @@
         {
           "name": "aria-sort=none",
           "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains sort:none\" failed   \n**Actual value:** '['id:test', 'rowindex:1', 'colindex:1', 'table-cell-index:0', 'xml-roles:columnheader', 'tag:div', 'display:block']'  \n;  expected true got false"
+          "message": "assert_true: \"property objectAttributes contains sort:none\" failed   \n**Actual value:** '['text-align:left', 'id:test', 'rowindex:1', 'colindex:1', 'table-cell-index:0', 'xml-roles:columnheader', 'tag:div', 'display:block']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -1526,6 +1628,18 @@
       "message": null
     },
     {
+      "test": "/core-aam/aria-valuetext_on_spinbutton-manual.html",
+      "subtests": [
+        {
+          "name": "spinbutton",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/aria-valuetext_value_changes-manual.html",
       "subtests": [
         {
@@ -1574,10 +1688,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/button_with_aria-haspopup_dialog_new-manual.html",
+      "test": "/core-aam/button_with_aria-haspopup_dialog-manual.html",
       "subtests": [
         {
-          "name": "button with aria-haspopup=\"dialog\" NEW",
+          "name": "button with aria-haspopup=\"dialog\"",
           "status": "PASS",
           "message": null
         }
@@ -1634,10 +1748,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/cell_new-manual.html",
+      "test": "/core-aam/cell-manual.html",
       "subtests": [
         {
-          "name": "cell NEW",
+          "name": "cell",
           "status": "PASS",
           "message": null
         }
@@ -1650,6 +1764,18 @@
       "subtests": [
         {
           "name": "checkbox",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/code-manual.html",
+      "subtests": [
+        {
+          "name": "code",
           "status": "PASS",
           "message": null
         }
@@ -1674,8 +1800,20 @@
       "subtests": [
         {
           "name": "combobox",
-          "status": "FAIL",
-          "message": "assert_true: \"property states contains STATE_HAS_POPUP\" failed   \n**Actual value:** '['STATE\\_ENABLED', 'STATE\\_EXPANDABLE', 'STATE\\_SENSITIVE', 'STATE\\_SHOWING', 'STATE\\_VISIBLE']'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/combobox-value-calculation-manual.html",
+      "subtests": [
+        {
+          "name": "combobox value calculation",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -1722,8 +1860,8 @@
       "subtests": [
         {
           "name": "deletion",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_CONTENT\\_DELETION\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -1758,6 +1896,18 @@
       "subtests": [
         {
           "name": "document",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/emphasis-manual.html",
+      "subtests": [
+        {
+          "name": "emphasis",
           "status": "PASS",
           "message": null
         }
@@ -1802,34 +1952,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/exclude_presentational_children_of_button-manual.html",
+      "test": "/core-aam/feed-manual.html",
       "subtests": [
         {
-          "name": "Exclude presentational children of button",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_checkbox_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of checkbox NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_img-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of img",
+          "name": "feed",
           "status": "PASS",
           "message": null
         }
@@ -1838,154 +1964,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/exclude_presentational_children_of_math-manual.html",
+      "test": "/core-aam/figure-manual.html",
       "subtests": [
         {
-          "name": "Exclude presentational children of math",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_menuitemcheckbox_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of menuitemcheckbox NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_menuitemradio_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of menuitemradio NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_option_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of option NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_progressbar-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of progressbar",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_radio_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of radio NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_scrollbar-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of scrollbar",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_separator-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of separator",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_slider-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of slider",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_switch_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of switch NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/exclude_presentational_children_of_tab_new-manual.html",
-      "subtests": [
-        {
-          "name": "Exclude presentational children of tab NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property accessible is false\" failed   \n**Actual value:** 'true'  \n;  expected true got false"
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/feed_new-manual.html",
-      "subtests": [
-        {
-          "name": "feed NEW",
-          "status": "PASS",
-          "message": null
-        }
-      ],
-      "status": "OK",
-      "message": null
-    },
-    {
-      "test": "/core-aam/figure_new-manual.html",
-      "subtests": [
-        {
-          "name": "figure NEW",
+          "name": "figure",
           "status": "PASS",
           "message": null
         }
@@ -1999,7 +1981,43 @@
         {
           "name": "form",
           "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_LANDMARK\" failed   \n**Actual value:** 'ROLE\\_FORM'  \n;  expected true got false"
+          "message": "assert_true: \"property role is ROLE_LANDMARK\" failed   \n**Actual value:** 'ROLE\\_FORM'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/generic-manual.html",
+      "subtests": [
+        {
+          "name": "generic",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/generic_roledescription_prohibited-manual.html",
+      "subtests": [
+        {
+          "name": "generic roledescription prohibited",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/grid-level-not-supported-manual.html",
+      "subtests": [
+        {
+          "name": "grid level not supported",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2066,6 +2084,18 @@
       "message": null
     },
     {
+      "test": "/core-aam/heading-no-level-manual.html",
+      "subtests": [
+        {
+          "name": "heading with no author-provided level",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
       "test": "/core-aam/img-manual.html",
       "subtests": [
         {
@@ -2102,10 +2132,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/include_element_referenced_by_global_aria-details_new-manual.html",
+      "test": "/core-aam/include_element_referenced_by_global_aria-details-manual.html",
       "subtests": [
         {
-          "name": "Include element referenced by global aria-details NEW",
+          "name": "Include element referenced by global aria-details",
           "status": "PASS",
           "message": null
         }
@@ -2114,10 +2144,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/include_element_referenced_by_global_aria-errormessage_new-manual.html",
+      "test": "/core-aam/include_element_referenced_by_global_aria-errormessage-manual.html",
       "subtests": [
         {
-          "name": "Include element referenced by global aria-errormessage NEW",
+          "name": "Include element referenced by global aria-errormessage",
           "status": "PASS",
           "message": null
         }
@@ -2190,8 +2220,8 @@
       "subtests": [
         {
           "name": "insertion",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_CONTENT\\_INSERTION\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2239,7 +2269,7 @@
         {
           "name": "listbox owned by or child of combobox",
           "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_MENU\" failed   \n**Actual value:** 'ROLE\\_LIST\\_BOX'  \n;  expected true got false"
+          "message": "assert_true: \"property role is ROLE_MENU\" failed   \n**Actual value:** 'ROLE\\_LIST\\_BOX'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2263,7 +2293,7 @@
         {
           "name": "log",
           "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains container-live-role:log\" failed   \n**Actual value:** '['id:test', 'container-busy:false', 'container-atomic:false', 'container-relevant:additions text', 'container-live:polite', 'atomic:false', 'relevant:additions text', 'live:polite', 'xml-roles:log', 'tag:div', 'display:block']'  \n;  expected true got false"
+          "message": "assert_true: \"property objectAttributes contains container-live-role:log\" failed   \n**Actual value:** '['text-align:left', 'id:test', 'container-busy:false', 'container-atomic:false', 'container-relevant:additions text', 'container-live:polite', 'atomic:false', 'relevant:additions text', 'live:polite', 'xml-roles:log', 'tag:div', 'display:block']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2370,8 +2400,8 @@
       "subtests": [
         {
           "name": "menuitem owned by or child of group",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_MENU_ITEM\" failed   \n**Actual value:** 'ROLE\\_MENU'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2438,10 +2468,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/none_new-manual.html",
+      "test": "/core-aam/none-manual.html",
       "subtests": [
         {
-          "name": "none NEW",
+          "name": "none",
           "status": "PASS",
           "message": null
         }
@@ -2462,10 +2492,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/none_used_on_table_element_with_td_children_new-manual.html",
+      "test": "/core-aam/none_used_on_table_element_with_td_children-manual.html",
       "subtests": [
         {
-          "name": "none used on table element with td children NEW",
+          "name": "none used on table element with td children",
           "status": "PASS",
           "message": null
         }
@@ -2474,12 +2504,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/none_used_on_ul_element_with_li_children_new-manual.html",
+      "test": "/core-aam/none_used_on_ul_element_with_li_children-manual.html",
       "subtests": [
         {
-          "name": "none used on ul element with li children NEW",
+          "name": "none used on ul element with li children",
           "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_SECTION\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "message": "assert_true: \"property role is ROLE_SECTION\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2503,7 +2533,7 @@
         {
           "name": "option inside combobox",
           "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_MENU_ITEM\" failed   \n**Actual value:** 'ROLE\\_LIST\\_ITEM'  \n;  expected true got false"
+          "message": "assert_true: \"property role is ROLE_MENU_ITEM\" failed   \n**Actual value:** 'ROLE\\_LIST\\_ITEM'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2558,10 +2588,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/presentation_used_on_table_element_with_td_children_new-manual.html",
+      "test": "/core-aam/presentation_used_on_table_element_with_td_children-manual.html",
       "subtests": [
         {
-          "name": "presentation used on table element with td children NEW",
+          "name": "presentation used on table element with td children",
           "status": "PASS",
           "message": null
         }
@@ -2570,12 +2600,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/presentation_used_on_ul_element_with_li_children_new-manual.html",
+      "test": "/core-aam/presentation_used_on_ul_element_with_li_children-manual.html",
       "subtests": [
         {
-          "name": "presentation used on ul element with li children NEW",
+          "name": "presentation used on ul element with li children",
           "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_SECTION\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "message": "assert_true: \"property role is ROLE_SECTION\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2586,6 +2616,18 @@
       "subtests": [
         {
           "name": "progressbar",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/progressbar-no-min-or-max-manual.html",
+      "subtests": [
+        {
+          "name": "progressbar no min or max",
           "status": "PASS",
           "message": null
         }
@@ -2618,10 +2660,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/region_with_an_accessible_name_new-manual.html",
+      "test": "/core-aam/region_with_an_accessible_name-manual.html",
       "subtests": [
         {
-          "name": "region with an accessible name NEW",
+          "name": "region with an accessible name",
           "status": "PASS",
           "message": null
         }
@@ -2630,12 +2672,12 @@
       "message": null
     },
     {
-      "test": "/core-aam/region_without_an_accessible_name_new-manual.html",
+      "test": "/core-aam/region_without_an_accessible_name-manual.html",
       "subtests": [
         {
-          "name": "region without an accessible name NEW",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_SECTION\" failed   \n**Actual value:** 'ROLE\\_LANDMARK'  \n;  expected true got false"
+          "name": "region without an accessible name",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2670,8 +2712,20 @@
       "subtests": [
         {
           "name": "rowgroup",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_PANEL\" failed   \n**Actual value:** 'None'  \nERROR: Object not found  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/rowgroup-no-name-from-contents-manual.html",
+      "subtests": [
+        {
+          "name": "rowgroup no name from contents",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2714,22 +2768,22 @@
       "message": null
     },
     {
-      "test": "/core-aam/searchbox_new-manual.html",
+      "test": "/core-aam/searchbox-manual.html",
       "subtests": [
         {
-          "name": "searchbox NEW",
+          "name": "searchbox",
           "status": "FAIL",
-          "message": "assert_true: \"property interfaces contains EditableText\" failed   \n**Actual value:** '['Accessible', 'Action', 'Collection', 'Component', 'Hypertext', 'Hyperlink', 'Text']'  \n;  expected true got false"
+          "message": "assert_true: \"property interfaces contains EditableText\" failed   \n**Actual value:** '['Accessible', 'Action', 'Collection', 'Component', 'Document', 'Hypertext', 'Hyperlink', 'Text']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/separator_focusable_new-manual.html",
+      "test": "/core-aam/separator_focusable-manual.html",
       "subtests": [
         {
-          "name": "separator focusable NEW",
+          "name": "separator focusable",
           "status": "PASS",
           "message": null
         }
@@ -2779,7 +2833,19 @@
         {
           "name": "status",
           "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains container-live-role:status\" failed   \n**Actual value:** '['id:test', 'container-busy:false', 'container-atomic:true', 'container-relevant:additions text', 'container-live:polite', 'atomic:true', 'relevant:additions text', 'live:polite', 'xml-roles:status', 'tag:div', 'display:block']'  \n;  expected true got false"
+          "message": "assert_true: \"property objectAttributes contains container-live-role:status\" failed   \n**Actual value:** '['text-align:left', 'id:test', 'container-busy:false', 'container-atomic:true', 'container-relevant:additions text', 'container-live:polite', 'atomic:true', 'relevant:additions text', 'live:polite', 'xml-roles:status', 'tag:div', 'display:block']'  \n;  expected true got false"
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/strong-manual.html",
+      "subtests": [
+        {
+          "name": "strong",
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2790,8 +2856,8 @@
       "subtests": [
         {
           "name": "subscript",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_SUBSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2802,18 +2868,18 @@
       "subtests": [
         {
           "name": "superscript",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_SUPERSCRIPT\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
       "message": null
     },
     {
-      "test": "/core-aam/switch_new-manual.html",
+      "test": "/core-aam/switch-manual.html",
       "subtests": [
         {
-          "name": "switch NEW",
+          "name": "switch",
           "status": "PASS",
           "message": null
         }
@@ -2834,10 +2900,22 @@
       "message": null
     },
     {
-      "test": "/core-aam/table_new-manual.html",
+      "test": "/core-aam/table-manual.html",
       "subtests": [
         {
-          "name": "table NEW",
+          "name": "table",
+          "status": "PASS",
+          "message": null
+        }
+      ],
+      "status": "OK",
+      "message": null
+    },
+    {
+      "test": "/core-aam/tablist-level-not-supported-manual.html",
+      "subtests": [
+        {
+          "name": "tablist level not supported",
           "status": "PASS",
           "message": null
         }
@@ -2870,10 +2948,10 @@
       "message": null
     },
     {
-      "test": "/core-aam/term_new-manual.html",
+      "test": "/core-aam/term-manual.html",
       "subtests": [
         {
-          "name": "term NEW",
+          "name": "term",
           "status": "PASS",
           "message": null
         }
@@ -2887,7 +2965,7 @@
         {
           "name": "textbox when aria-multiline is false",
           "status": "FAIL",
-          "message": "assert_true: \"property interfaces contains EditableText\" failed   \n**Actual value:** '['Accessible', 'Action', 'Collection', 'Component', 'Hypertext', 'Hyperlink', 'Text']'  \n;  expected true got false"
+          "message": "assert_true: \"property interfaces contains EditableText\" failed   \n**Actual value:** '['Accessible', 'Action', 'Collection', 'Component', 'Document', 'Hypertext', 'Hyperlink', 'Text']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2899,7 +2977,7 @@
         {
           "name": "textbox when aria-multiline is true",
           "status": "FAIL",
-          "message": "assert_true: \"property interfaces contains EditableText\" failed   \n**Actual value:** '['Accessible', 'Action', 'Collection', 'Component', 'Hypertext', 'Hyperlink', 'Text']'  \n;  expected true got false"
+          "message": "assert_true: \"property interfaces contains EditableText\" failed   \n**Actual value:** '['Accessible', 'Action', 'Collection', 'Component', 'Document', 'Hypertext', 'Hyperlink', 'Text']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
@@ -2910,8 +2988,8 @@
       "subtests": [
         {
           "name": "time",
-          "status": "FAIL",
-          "message": "assert_true: \"property role is ROLE\\_STATIC\" failed   \n**Actual value:** 'ROLE\\_SECTION'  \n;  expected true got false"
+          "status": "PASS",
+          "message": null
         }
       ],
       "status": "OK",
@@ -2923,7 +3001,7 @@
         {
           "name": "timer",
           "status": "FAIL",
-          "message": "assert_true: \"property objectAttributes contains container-live-role:timer\" failed   \n**Actual value:** '['id:test', 'container-busy:false', 'container-atomic:false', 'container-relevant:additions text', 'container-live:off', 'atomic:false', 'relevant:additions text', 'live:off', 'xml-roles:timer', 'tag:div', 'display:block']'  \n;  expected true got false"
+          "message": "assert_true: \"property objectAttributes contains container-live-role:timer\" failed   \n**Actual value:** '['text-align:left', 'id:test', 'container-busy:false', 'container-atomic:false', 'container-relevant:additions text', 'container-live:off', 'atomic:false', 'relevant:additions text', 'live:off', 'xml-roles:timer', 'tag:div', 'display:block']'  \n;  expected true got false"
         }
       ],
       "status": "OK",
